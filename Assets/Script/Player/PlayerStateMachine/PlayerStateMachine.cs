@@ -12,8 +12,6 @@ public class PlayerStateMachine : StateMachine
 
 
     [field: SerializeField] public float MoveSpeed { get; private set; }
-    [field: SerializeField] public float KnockbackStrength { get; private set; }
-    [field: SerializeField] public float StuckDuration { get; private set; }
     // Start is called before the first frame update
     private void Start()
     {

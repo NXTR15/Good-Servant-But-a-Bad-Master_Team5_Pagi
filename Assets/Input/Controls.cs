@@ -189,6 +189,34 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""MouseClick"",
+            ""id"": ""e4e389d0-3bb1-4f14-a647-00ee49ca5522"",
+            ""actions"": [
+                {
+                    ""name"": ""New action"",
+                    ""type"": ""Button"",
+                    ""id"": ""dd2ba557-674b-4db7-b367-94a8523cc0cc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""ee82e669-0fb1-43dc-96c9-b9d3e9a39ab1"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""New action"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -204,6 +232,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Hide = m_Player.FindAction("Hide", throwIfNotFound: true);
         m_Player_Dodge = m_Player.FindAction("Dodge", throwIfNotFound: true);
+        // MouseClick
+        m_MouseClick = asset.FindActionMap("MouseClick", throwIfNotFound: true);
+        m_MouseClick_Newaction = m_MouseClick.FindAction("New action", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -323,6 +354,52 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         }
     }
     public PlayerActions @Player => new PlayerActions(this);
+
+    // MouseClick
+    private readonly InputActionMap m_MouseClick;
+    private List<IMouseClickActions> m_MouseClickActionsCallbackInterfaces = new List<IMouseClickActions>();
+    private readonly InputAction m_MouseClick_Newaction;
+    public struct MouseClickActions
+    {
+        private @Controls m_Wrapper;
+        public MouseClickActions(@Controls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Newaction => m_Wrapper.m_MouseClick_Newaction;
+        public InputActionMap Get() { return m_Wrapper.m_MouseClick; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(MouseClickActions set) { return set.Get(); }
+        public void AddCallbacks(IMouseClickActions instance)
+        {
+            if (instance == null || m_Wrapper.m_MouseClickActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_MouseClickActionsCallbackInterfaces.Add(instance);
+            @Newaction.started += instance.OnNewaction;
+            @Newaction.performed += instance.OnNewaction;
+            @Newaction.canceled += instance.OnNewaction;
+        }
+
+        private void UnregisterCallbacks(IMouseClickActions instance)
+        {
+            @Newaction.started -= instance.OnNewaction;
+            @Newaction.performed -= instance.OnNewaction;
+            @Newaction.canceled -= instance.OnNewaction;
+        }
+
+        public void RemoveCallbacks(IMouseClickActions instance)
+        {
+            if (m_Wrapper.m_MouseClickActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(IMouseClickActions instance)
+        {
+            foreach (var item in m_Wrapper.m_MouseClickActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_MouseClickActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public MouseClickActions @MouseClick => new MouseClickActions(this);
     private int m_KeyboardSchemeIndex = -1;
     public InputControlScheme KeyboardScheme
     {
@@ -337,5 +414,9 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnHide(InputAction.CallbackContext context);
         void OnDodge(InputAction.CallbackContext context);
+    }
+    public interface IMouseClickActions
+    {
+        void OnNewaction(InputAction.CallbackContext context);
     }
 }
