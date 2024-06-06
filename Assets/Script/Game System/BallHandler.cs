@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class BallHandler : MonoBehaviour
 {
+    [SerializeField] private Rigidbody2D currentBallRigidbody;
     private Camera m_Camera;
     private Vector3 mousePos;
     private void Start()
@@ -14,13 +15,23 @@ public class BallHandler : MonoBehaviour
 
     private void Update()
     {
-        if (!Input.GetMouseButton(0))
+        if(!Input.GetMouseButton(0) && currentBallRigidbody != null)
         {
+            currentBallRigidbody.isKinematic = false;
             return;
         }
 
-        mousePos = m_Camera.ScreenToWorldPoint(Input.mousePosition);       
+        if(currentBallRigidbody != null)
+        {
+            currentBallRigidbody.isKinematic = true;
+        }
+              
+        mousePos = m_Camera.ScreenToWorldPoint(Input.mousePosition);
 
-        Debug.Log(mousePos);
+        if(currentBallRigidbody != null)
+        {
+            currentBallRigidbody.position = mousePos;
+        }
+            
     }
 }
