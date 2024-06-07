@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainArea.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Dungeon1.unity
-    guid: cd67d755d6c6e81459cb17b0a7ef45b9
+    path: Assets/Scenes/Minigame.unity
+    guid: 9bc2e9af8ee5bc04d865d478f3fdf5e1
   m_configObjects: {}

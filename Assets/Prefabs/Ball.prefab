@@ -13,10 +13,9 @@ GameObject:
   - component: {fileID: 3463507935614353541}
   - component: {fileID: 8943409000416039101}
   - component: {fileID: 3504541890455130801}
-  - component: {fileID: 576102335723033599}
   m_Layer: 0
   m_Name: Ball
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,18 +170,3 @@ SpringJoint2D:
   m_Distance: 0.005
   m_DampingRatio: 0
   m_Frequency: 1
---- !u!114 &576102335723033599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7670847897814955238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9e8c8a250fadb7449afd86e58231e3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentBallRigidbody: {fileID: 0}
-  currentBallSpringJoint: {fileID: 0}
-  DelayDuration: 0
