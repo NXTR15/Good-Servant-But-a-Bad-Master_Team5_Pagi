@@ -828,7 +828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1526336570}
-  remainingTime: 3
+  remainingTime: 90
   SceneName: Minigame
 --- !u!1 &860620188
 GameObject:

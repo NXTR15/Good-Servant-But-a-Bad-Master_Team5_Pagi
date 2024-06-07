@@ -1,0 +1,1051 @@
+fileFormatVersion: 2
+guid: f5e952e8682457546841098194988166
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Basket_Hall cut_0
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2679
+        width: 324
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c97e4c7f2e449c4d8f61ea362253749
+      internalID: -872297466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_1
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 2679
+        width: 324
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc281ffc372ec68469ae46578bb77906
+      internalID: -549553975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_2
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 2679
+        width: 323
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1128b6c787f65408aa5b9f03ad45b0
+      internalID: 440896086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_3
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 2679
+        width: 323
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4814797e3186cd4e883a3560a3ecd6a
+      internalID: -469697141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_4
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 2679
+        width: 323
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b6b403d45317f4f81253b26404c8dd
+      internalID: -1551079593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_5
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 2679
+        width: 323
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f75389ff6399b943953b134928a5dc5
+      internalID: -369781783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_6
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 2679
+        width: 324
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ac2bd812a98494cbda01c064b817c9
+      internalID: -271711414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_7
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 2679
+        width: 324
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e66764d7cebe6342bdbe362163f529b
+      internalID: 1631364871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_8
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2197
+        width: 324
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d96f8271bd47a4d89a3572919622b6
+      internalID: -682882079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_9
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 2197
+        width: 324
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fc9b607486aaa4a9e1b3ebd608d259
+      internalID: 1108742675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_10
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 2197
+        width: 323
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a8115692424954fb51a8b2d8b8cc4d
+      internalID: 1680234329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_11
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 2197
+        width: 323
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1341804a6abf4d348ada6e53176ae38c
+      internalID: 1594499514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_12
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 2197
+        width: 323
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73569d3c1687a3b40979b4663894cf80
+      internalID: 946879881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_13
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 2197
+        width: 323
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2c4125dcc87d2498b12f1f268ba333
+      internalID: -594026450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_14
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 2197
+        width: 324
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e25e2398a35784dbc873efb44d256b
+      internalID: 590285821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_15
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 2197
+        width: 324
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e912e0c47f4fc3498bffc83f517cbac
+      internalID: 2026298880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_16
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1329
+        width: 643
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e9952e3c3546842a9e8339c71c9c42
+      internalID: -173916288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_17
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1717
+        width: 323
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a903e2b3fac09844be1139f91904419
+      internalID: -607568695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_18
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 1717
+        width: 323
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40437b2dbdbc62648bba42acfe0f508f
+      internalID: 1220410672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_19
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 1717
+        width: 323
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e8aa8d4995e874ea25fa99e9ec8ab2
+      internalID: 682068654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_20
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 1717
+        width: 323
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9aab55ed2d63549bbbae901dc63748
+      internalID: -1962982840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_21
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 1309
+        width: 643
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3315c72ddb93c640b93820e2a1f3c85
+      internalID: 95749099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_22
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1238
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4430ad5506e21324b98933d3ef8c6c34
+      internalID: -1745459347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_23
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 1238
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a6240a47ae1e741b04ed7a315f80e8
+      internalID: -8041543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_24
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 1238
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23577fccff99b04fa9ac22eb5c6e41e
+      internalID: 296115320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_25
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 1238
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53e4675e7c60db4c8d1c992e54348b0
+      internalID: 1229292895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_26
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 758
+        width: 324
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ed18845c48a9549a313385f333084c
+      internalID: 592682768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_27
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 758
+        width: 324
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0a284838480e04281c42b0b777a5bb
+      internalID: 996595064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_28
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 758
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6f60f21d8b58b43b12d2021bbbf17a
+      internalID: 2006957767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_29
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 758
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f0d0f0b14364f41a3c65926463ea21
+      internalID: 896046174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_30
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 758
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bb2f448ef26b04089fa5756384d7f9
+      internalID: -1994496391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_31
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 758
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b355c354137e3d43a6266284c86b7e4
+      internalID: -1188290317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_32
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 758
+        width: 324
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b0473acebae684c90fb3162296a96c
+      internalID: -322024062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_33
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 758
+        width: 324
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380164b1aa657e74c837e00e68319088
+      internalID: -2033698073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_34
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 278
+        width: 324
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582e3a564297933449ffa72d93b4cd5e
+      internalID: -1977365752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_35
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 278
+        width: 324
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55d5168d7ab1234d825c1877e36a4f3
+      internalID: 1581696376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_36
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 278
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8e2db3bc2933045b25ab1ea7c1b96c
+      internalID: 980279093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_37
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 278
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8363ed1dcb4ed46bcbb73fc8a2b3d0
+      internalID: 920090047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_38
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 278
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afbb3d2ddc2bf5438ab04165db03dfe
+      internalID: -1230250809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_39
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 278
+        width: 323
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06a7b90bad4e0f4e9945b2e90fe8dc3
+      internalID: 276604989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_40
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 278
+        width: 324
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d6011169253b04496dfb68df00cc61
+      internalID: -1252046991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basket_Hall cut_41
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 278
+        width: 324
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2c298785db6e74b9009385415bb6cb
+      internalID: -48367696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Basket_Hall cut_0: -872297466
+      Basket_Hall cut_1: -549553975
+      Basket_Hall cut_10: 1680234329
+      Basket_Hall cut_11: 1594499514
+      Basket_Hall cut_12: 946879881
+      Basket_Hall cut_13: -594026450
+      Basket_Hall cut_14: 590285821
+      Basket_Hall cut_15: 2026298880
+      Basket_Hall cut_16: -173916288
+      Basket_Hall cut_17: -607568695
+      Basket_Hall cut_18: 1220410672
+      Basket_Hall cut_19: 682068654
+      Basket_Hall cut_2: 440896086
+      Basket_Hall cut_20: -1962982840
+      Basket_Hall cut_21: 95749099
+      Basket_Hall cut_22: -1745459347
+      Basket_Hall cut_23: -8041543
+      Basket_Hall cut_24: 296115320
+      Basket_Hall cut_25: 1229292895
+      Basket_Hall cut_26: 592682768
+      Basket_Hall cut_27: 996595064
+      Basket_Hall cut_28: 2006957767
+      Basket_Hall cut_29: 896046174
+      Basket_Hall cut_3: -469697141
+      Basket_Hall cut_30: -1994496391
+      Basket_Hall cut_31: -1188290317
+      Basket_Hall cut_32: -322024062
+      Basket_Hall cut_33: -2033698073
+      Basket_Hall cut_34: -1977365752
+      Basket_Hall cut_35: 1581696376
+      Basket_Hall cut_36: 980279093
+      Basket_Hall cut_37: 920090047
+      Basket_Hall cut_38: -1230250809
+      Basket_Hall cut_39: 276604989
+      Basket_Hall cut_4: -1551079593
+      Basket_Hall cut_40: -1252046991
+      Basket_Hall cut_41: -48367696
+      Basket_Hall cut_5: -369781783
+      Basket_Hall cut_6: -271711414
+      Basket_Hall cut_7: 1631364871
+      Basket_Hall cut_8: -682882079
+      Basket_Hall cut_9: 1108742675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
