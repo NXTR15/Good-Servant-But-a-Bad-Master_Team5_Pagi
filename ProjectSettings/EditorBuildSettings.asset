@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minigame.unity
     guid: 9bc2e9af8ee5bc04d865d478f3fdf5e1
+  - enabled: 1
+    path: Assets/Scenes/BasketballMinigame.unity
+    guid: 945540c61b968bb48a236650cd216f61
   m_configObjects: {}

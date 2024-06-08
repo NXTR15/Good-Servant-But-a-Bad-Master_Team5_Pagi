@@ -6,9 +6,11 @@ using UnityEngine;
 public class GameData
 {
     public float TimeRemaining;
+    public float ScoreInMinigames;
 
     public GameData()
     {
         this.TimeRemaining = 90;
+        this.ScoreInMinigames = 0;
     }
 }

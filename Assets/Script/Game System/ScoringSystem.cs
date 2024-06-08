@@ -1,11 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
-public class ScoringSystem : MonoBehaviour
+public class ScoringSystem : MonoBehaviour, IDataPersistence
 {
+    [SerializeField] private TextMeshProUGUI scoreText;
     private GameObject ball;
-    private float score;
+    public float score {get; private set;}
+
+    public void LoadData(GameData data)
+    {
+        this.score = data.ScoreInMinigames;
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data.ScoreInMinigames = this.score;
+    }
 
     private void Awake()
     {
@@ -15,5 +27,9 @@ public class ScoringSystem : MonoBehaviour
     {
         score++;
         Debug.Log(score);       
+    }
+    private void Update()
+    {
+        scoreText.text = score.ToString();
     }
 }
