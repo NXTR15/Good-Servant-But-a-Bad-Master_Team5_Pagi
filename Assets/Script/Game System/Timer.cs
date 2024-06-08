@@ -5,11 +5,21 @@ using TMPro;
 using System.Timers;
 using UnityEngine.SceneManagement;
 
-public class Timer : MonoBehaviour
+public class Timer : MonoBehaviour, IDataPersistence
 {
     [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private float remainingTime;
     [SerializeField] private string SceneName;
+
+    public void LoadData(GameData data)
+    {
+        this.remainingTime = data.TimeRemaining;
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data.TimeRemaining = this.remainingTime;
+    }  
 
     private void Update()
     {
@@ -26,5 +36,7 @@ public class Timer : MonoBehaviour
         int minutes = Mathf.FloorToInt(remainingTime / 60);
         int seconds = Mathf.FloorToInt(remainingTime % 60);
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+        
     }
+    
 }

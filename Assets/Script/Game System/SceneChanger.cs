@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour
 {
     public Health health;
+    public GameObject Timer;
     private Scene scene;
     private void Awake()
     {
@@ -22,7 +23,7 @@ public class SceneChanger : MonoBehaviour
     }
 
     private void RestartScene()
-    {
+    {      
         SceneManager.LoadScene(scene.name);
     }
 }
