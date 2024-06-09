@@ -38,14 +38,12 @@ public class PlayerMovementState : PlayerBaseState
             stateMachine.Animator.SetFloat("Vertical", -1);
         }
         else if (stateMachine.InputReader.MovementValue == Vector2.right)
-        {
-            stateMachine.SpriteRenderer.flipX = true;
+        {          
             stateMachine.Animator.SetFloat("Horizontal", 1);
             stateMachine.Animator.SetFloat("Vertical", 0);           
         }
         else if (stateMachine.InputReader.MovementValue == Vector2.left)
         {
-            stateMachine.SpriteRenderer.flipX = false;
             stateMachine.Animator.SetFloat("Horizontal", -1);
             stateMachine.Animator.SetFloat("Vertical", 0);           
         }

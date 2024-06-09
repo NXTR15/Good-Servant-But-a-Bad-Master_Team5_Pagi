@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class HidePlayer : MonoBehaviour
 {
-    private Button button;
+    private Animator boxAnim;
     public bool IsPlayerHiding = false;
     public bool IsPlayerCanHide = false;
     public GameObject player { get; set; }
     private void Awake()
     {
-        button = GetComponent<Button>();
+        boxAnim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -35,6 +35,7 @@ public class HidePlayer : MonoBehaviour
     {
         if (IsPlayerCanHide == true)
         {
+            
             Hide();
         }
         else if (IsPlayerCanHide == false && IsPlayerHiding == true)
@@ -47,6 +48,7 @@ public class HidePlayer : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) && IsPlayerHiding == false)
         {
+            boxAnim.SetBool("isHiding", true);
             player.SetActive(false);
             IsPlayerHiding = true;
         }
@@ -56,6 +58,7 @@ public class HidePlayer : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) && IsPlayerHiding == true)
         {
+            boxAnim.SetBool("isHiding", false);
             player.SetActive(true);
             IsPlayerHiding = false;
         }

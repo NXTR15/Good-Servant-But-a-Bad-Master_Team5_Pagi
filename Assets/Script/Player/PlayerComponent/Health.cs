@@ -28,6 +28,7 @@ public class Health : MonoBehaviour
     {
         if (collision.gameObject == attackingPlayer)
         {
+            
             HealthCount -= DamageCount;
         }
     }
