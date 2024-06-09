@@ -874,9 +874,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreSystem: {fileID: 0}
   timerText: {fileID: 1526336570}
-  remainingTime: 90
   WinSceneName: 
   LoseSceneName: 
+  CutsceneSceneName: 
+  remainingTime: 90
 --- !u!1 &860620188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1801,7 +1802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: {fileID: 423110280}
-  Timer: {fileID: 1526336568}
+  Timer: {fileID: 850715346}
 --- !u!1 &1526336568
 GameObject:
   m_ObjectHideFlags: 0

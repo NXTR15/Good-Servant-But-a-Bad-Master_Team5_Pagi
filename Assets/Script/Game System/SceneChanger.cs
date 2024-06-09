@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 public class SceneChanger : MonoBehaviour
 {
     public Health health;
-    public GameObject Timer;
+    public Timer Timer;
     private Scene scene;
     private void Awake()
     {
-        scene = SceneManager.GetActiveScene();
+        scene = SceneManager.GetActiveScene();        
     }
 
     // Update is called once per frame
@@ -26,4 +26,6 @@ public class SceneChanger : MonoBehaviour
     {      
         SceneManager.LoadScene(scene.name);
     }
+
+
 }

@@ -8,10 +8,12 @@ using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour, IDataPersistence
 {
     [SerializeField] private ScoringSystem scoreSystem;
-    [SerializeField] private TextMeshProUGUI timerText;
-    [SerializeField] private float remainingTime;
+    [SerializeField] private TextMeshProUGUI timerText;   
     [SerializeField] private string WinSceneName;
     [SerializeField] private string LoseSceneName;
+    [SerializeField] private string CutsceneSceneName;
+
+    public float remainingTime;
 
     public void LoadData(GameData data)
     {
@@ -27,20 +29,22 @@ public class Timer : MonoBehaviour, IDataPersistence
     {
         if (remainingTime > 0)
         {
-            remainingTime -= Time.deltaTime;
+            remainingTime -= Time.deltaTime;            
         }
         else if (remainingTime <= 0)
-        {
+        {           
             remainingTime = 0;
-            if (scoreSystem.score >= 5)
+            
+            if (scoreSystem?.score >= 5)
             {
                 SceneManager.LoadScene(WinSceneName);
             }
-            else if (scoreSystem.score < 5)
+            else if (scoreSystem?.score < 5)
             {
                 SceneManager.LoadScene(LoseSceneName);
             }
-            
+            SceneManager.LoadScene(CutsceneSceneName);
+
         }
         
         int minutes = Mathf.FloorToInt(remainingTime / 60);
