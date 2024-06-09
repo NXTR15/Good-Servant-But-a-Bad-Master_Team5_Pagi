@@ -7,6 +7,7 @@ public class ScoringSystem : MonoBehaviour, IDataPersistence
 {
     [SerializeField] private TextMeshProUGUI scoreText;
     private GameObject ball;
+    private Animator HeroineAnimator;
     public float score {get; private set;}
 
     public void LoadData(GameData data)
@@ -22,14 +23,23 @@ public class ScoringSystem : MonoBehaviour, IDataPersistence
     private void Awake()
     {
         ball = GameObject.FindGameObjectWithTag("Ball");
+        HeroineAnimator = GameObject.FindGameObjectWithTag("Heroine").GetComponent<Animator>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         score++;
-        Debug.Log(score);       
+        Debug.Log(score);
+        StartCoroutine(HeroineExpressionChange());
     }
     private void Update()
     {
         scoreText.text = score.ToString();
+    }
+
+    IEnumerator HeroineExpressionChange()
+    {
+        HeroineAnimator.SetBool("isBallScore", true);
+        yield return new WaitForSeconds(2f);
+        HeroineAnimator.SetBool("isBallScore", false);
     }
 }
