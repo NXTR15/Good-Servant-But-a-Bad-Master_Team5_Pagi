@@ -10,8 +10,7 @@ public class PlayerIdleState : PlayerBaseState
 
     public override void EnterState()
     {
-        Debug.Log("Idle State Active");
-        stateMachine.SpriteRenderer.flipX = false;
+
     }
 
     public override void UpdateState(float deltaTime)

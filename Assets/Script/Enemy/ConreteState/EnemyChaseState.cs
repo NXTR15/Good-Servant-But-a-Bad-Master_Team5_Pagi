@@ -46,8 +46,12 @@ public class EnemyChaseState : EnemyState
             enemy.StateMachine.ChangeState(enemy.AttackState);
         }
 
-        Vector2 MoveDir = (playerTransform.position - enemy.transform.position).normalized;
-        enemy.MoveEnemy(MoveDir * enemy.ChaseSpeed);
+        if (playerTransform != null)
+        {
+            Vector2 MoveDir = (playerTransform.position - enemy.transform.position).normalized;
+            enemy.MoveEnemy(MoveDir * enemy.ChaseSpeed);
+        }
+        return;
     }
 
     public override int GetHashCode()

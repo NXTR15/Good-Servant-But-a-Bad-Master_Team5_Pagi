@@ -15,7 +15,7 @@ public class ScoringSystem : MonoBehaviour, IDataPersistence
         this.score = data.ScoreInMinigames;
     }
 
-    public void SaveData(ref GameData data)
+    public void SaveData(GameData data)
     {
         data.ScoreInMinigames = this.score;
     }

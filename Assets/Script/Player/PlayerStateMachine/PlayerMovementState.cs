@@ -13,7 +13,7 @@ public class PlayerMovementState : PlayerBaseState
 
     public override void EnterState()
     {
-        Debug.Log("Move State Active");
+        
     }
 
     public override void UpdateState(float deltaTime)

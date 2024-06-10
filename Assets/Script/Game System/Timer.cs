@@ -20,10 +20,10 @@ public class Timer : MonoBehaviour, IDataPersistence
         this.remainingTime = data.TimeRemaining;
     }
 
-    public void SaveData(ref GameData data)
+    public void SaveData(GameData data)
     {
         data.TimeRemaining = this.remainingTime;
-    }  
+    }
 
     private void Update()
     {
@@ -46,7 +46,13 @@ public class Timer : MonoBehaviour, IDataPersistence
             SceneManager.LoadScene(CutsceneSceneName);
 
         }
-        
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            DataPersistenceManager.instance.SaveGame();
+            SceneManager.LoadSceneAsync("MainMenu");
+        }
+
         int minutes = Mathf.FloorToInt(remainingTime / 60);
         int seconds = Mathf.FloorToInt(remainingTime % 60);
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);

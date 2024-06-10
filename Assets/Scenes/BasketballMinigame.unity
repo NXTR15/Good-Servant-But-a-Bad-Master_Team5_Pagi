@@ -475,9 +475,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreSystem: {fileID: 470469799733514026}
   timerText: {fileID: 1912076484}
-  remainingTime: 90
   WinSceneName: MainArea
-  LoseSceneName: Minigame
+  LoseSceneName: MainMenu
+  CutsceneSceneName: 
+  remainingTime: 90
 --- !u!1 &167142488
 GameObject:
   m_ObjectHideFlags: 0
