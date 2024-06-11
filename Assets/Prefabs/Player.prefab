@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2075217652001948219}
   - component: {fileID: 7514439234112945293}
   - component: {fileID: 7674580743822189175}
-  - component: {fileID: 8521842181005167361}
-  - component: {fileID: 8688389234267082246}
+  - component: {fileID: 1650814897199533794}
+  - component: {fileID: 5331494373966421363}
   - component: {fileID: 5848876457654956993}
   - component: {fileID: 3100136387892227974}
   - component: {fileID: 1271233905730603086}
@@ -34,7 +34,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 4.5, y: 4.5, z: 4.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -121,7 +121,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da846be4c3e2f84999b0a19109ec2f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8521842181005167361
+--- !u!114 &1650814897199533794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3012651431095056352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72b07a3418682724390f412b3227735f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KnockbackStrength: 20
+--- !u!114 &5331494373966421363
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,19 +148,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HealthCount: 30
   DamageCount: 10
---- !u!114 &8688389234267082246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3012651431095056352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72b07a3418682724390f412b3227735f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  KnockbackStrength: 30
 --- !u!70 &5848876457654956993
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

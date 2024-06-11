@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour, IDamagable, IEnemyMovable, ITriggerCheckable
 {
@@ -11,9 +13,11 @@ public class Enemy : MonoBehaviour, IDamagable, IEnemyMovable, ITriggerCheckable
     }
 
     [field: SerializeField] public float MaxHealth { get; set; }
+    [field: SerializeField] public Transform target;
     public float CurrentHealth { get; set; }
     public Rigidbody2D rb { get; set; }
     public Animator animator { get; set; }
+    public NavMeshAgent agent { get; set; }
     public bool IsFacingRight { get; set; } = false;
     public bool isAggroPlayer { get; set; }
     public bool isAttackRangeCheck { get; set; }
@@ -57,11 +61,15 @@ public class Enemy : MonoBehaviour, IDamagable, IEnemyMovable, ITriggerCheckable
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         StateMachine.Initialize(PatrolState);
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
     }
 
     private void Update()
     {
         StateMachine.CurrentEnemyState.FrameUpdate();
+        return;
     }
 
     private void FixedUpdate()

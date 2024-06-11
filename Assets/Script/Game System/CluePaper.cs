@@ -8,11 +8,16 @@ public class CluePaper : MonoBehaviour
     public bool IsPlayerCanInteract = false;
     private GameObject player;
     private StateMachine playerStatemachine;
+    [SerializeField] private GameObject door;
+    private Animator doorAnim;
+    private BoxCollider2D doorCollider;
     [SerializeField] private GameObject ClueImage;
     private void Awake()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         playerStatemachine = player.GetComponent<PlayerStateMachine>();
+        doorAnim = door.GetComponent<Animator>();
+        doorCollider = door.GetComponent<BoxCollider2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -59,6 +64,8 @@ public class CluePaper : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) && IsPlayerInteracting == true)
         {
+            doorAnim.SetBool("isDoorOpen", true);
+            doorCollider.enabled = false;
             playerStatemachine.enabled = true;
             ClueImage.SetActive(false);
             IsPlayerInteracting = false;

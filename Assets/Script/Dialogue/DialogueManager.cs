@@ -1,15 +1,23 @@
 using Ink.Runtime;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SearchService;
 
 public class DialogueManager : MonoBehaviour
 {
+    [Header("Parameter")]
+    [SerializeField] private float typingSpeed = 0.04f;
+
     [Header("Dialogue UI")]
     [SerializeField] private GameObject dialoguePanel;
+    [SerializeField] private GameObject ContinueIcon;
     [SerializeField] private TextMeshProUGUI dialogueText;
+    [SerializeField] private TextMeshProUGUI displayNameText;
+    [SerializeField] private Animator potraitAnimator;
 
     [Header("Choices UI")]
     [SerializeField] private GameObject[] choices;
@@ -18,6 +26,14 @@ public class DialogueManager : MonoBehaviour
     private Story currentStory;
     private static DialogueManager instance;
     private StateMachine playerStatemachine;
+    private Animator layoutAnimator;
+    private Coroutine displayLineCoroutine;
+    private const string Speaker_Tag = "speaker";
+    private const string Potrait_Tag = "potrait";
+    private const string Layout_Tag = "layout";
+
+    private bool canContinueToNextLine = false;
+    private bool isAddingRichTextTag = false;
     public bool isDialoguePlaying { get; private set;}
 
     private void Awake()
@@ -40,6 +56,9 @@ public class DialogueManager : MonoBehaviour
         isDialoguePlaying = false;
         dialoguePanel.SetActive(false);
 
+        //Get layout anim
+        layoutAnimator = dialoguePanel.GetComponent<Animator>();
+
         choicesText = new TextMeshProUGUI[choices.Length];
         int index = 0;
         foreach(GameObject choice in choices)
@@ -53,10 +72,13 @@ public class DialogueManager : MonoBehaviour
     {
         if (!isDialoguePlaying)
         {
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
             return;
         }
 
-        if (currentStory.currentChoices.Count == 0 && Input.GetKeyDown(KeyCode.Mouse0))
+        if (canContinueToNextLine && currentStory.currentChoices.Count == 0 
+            && Input.GetKeyDown(KeyCode.Mouse0))
         {
             ContinueStory();
         }
@@ -68,6 +90,11 @@ public class DialogueManager : MonoBehaviour
         isDialoguePlaying = true;
         dialoguePanel.SetActive(true);
         playerStatemachine.enabled = false;
+
+        //reset potrait, layout, speaker
+        displayNameText.text = "???";
+        potraitAnimator.Play("Default");
+        layoutAnimator.Play("right");
 
         ContinueStory();
     }
@@ -86,14 +113,108 @@ public class DialogueManager : MonoBehaviour
         if (currentStory.canContinue)
         {
             //Set Text for current dialogue line
-            dialogueText.text = currentStory.Continue();
-            //Display choices if any
-            DisplayChoices();
+            if (displayLineCoroutine != null)
+            {
+                StopCoroutine(displayLineCoroutine);
+            }
+            displayLineCoroutine = StartCoroutine(DisplayLine(currentStory.Continue()));
+
+            //Handle tags
+            HandleTags(currentStory.currentTags);
         }
         else
         {
             StartCoroutine(ExitDialogueMode());
         }
+    }
+
+    private IEnumerator DisplayLine(string line)
+    {
+        // empty dialogue text
+        dialogueText.text = "";
+        ContinueIcon.SetActive(false);
+        HideChoices();
+
+        canContinueToNextLine = false;
+
+        // Display one at a time
+        foreach (char letter in line.ToCharArray())
+        {
+            // if left click on mouse, skip dialogue to the end
+            //if (Input.GetKeyDown(KeyCode.Space))
+            //{
+            //    dialogueText.text = line;
+            //    break;
+            //}
+
+            // Check if adding rich text text
+            if (letter == '<' || isAddingRichTextTag)
+            {
+                isAddingRichTextTag = true;
+                dialogueText.text += letter;
+                if (letter == '>')
+                {
+                    isAddingRichTextTag = false;
+                }
+            }
+            // if not adding then add next letter
+            else
+            {
+                dialogueText.text += letter;
+                yield return new WaitForSeconds(typingSpeed);
+            }
+        }
+
+        ContinueIcon.SetActive(true);
+        //Display choices if any
+        DisplayChoices();
+
+        canContinueToNextLine = true;
+    }
+
+    private void HideChoices()
+    {
+        foreach (GameObject choiceButton in choices)
+        {
+            choiceButton.SetActive(false);
+        }
+    }
+
+    private void HandleTags(List<string> currentTags)
+    {
+        //Loop through each tag and handle it
+        foreach (string tag in currentTags)
+        {
+            //Parse tags
+            string[] splitTag = tag.Split(':');
+            if (splitTag.Length != 2 ) 
+            {
+                Debug.LogError("Tag cannot be parsed: " + tag);
+                Debug.LogError("Check ink dialogue");
+            }
+            string tagKey = splitTag[0].Trim();
+            string tagValue = splitTag[1].Trim();
+
+            switch (tagKey)
+            {
+                case Speaker_Tag:
+                    displayNameText.text = tagValue;
+                    Debug.Log("speaker=" + tagValue);
+                    break;
+                case Potrait_Tag:
+                    potraitAnimator.Play(tagValue);
+                    Debug.Log("potrait=" + tagValue);
+                    break;
+                case Layout_Tag:
+                    layoutAnimator.Play(tagValue);
+                    Debug.Log("layout=" + tagValue);
+                    break;
+                default:
+                    Debug.LogWarning("Tag came in but is not being handled: " + tag);
+                    break;
+            }
+        }
+
     }
 
     private void DisplayChoices()
@@ -133,7 +254,10 @@ public class DialogueManager : MonoBehaviour
 
     public void MakeChoice(int choiceIndex)
     {
-        currentStory.ChooseChoiceIndex(choiceIndex);
-        ContinueStory();
+        if (canContinueToNextLine)
+        {
+            currentStory.ChooseChoiceIndex(choiceIndex);
+            ContinueStory();
+        }     
     }
 }

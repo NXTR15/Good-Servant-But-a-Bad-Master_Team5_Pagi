@@ -6,7 +6,7 @@ public class ForceReceiver : MonoBehaviour
 {
     [SerializeField] private float KnockbackStrength;
     private Rigidbody2D rigidBody2D;
-    private GameObject attackingPlayer;
+    public GameObject attackingPlayer;
     private StateMachine stateMachine;
     private SpriteRenderer spriteRenderer;
 
@@ -21,6 +21,7 @@ public class ForceReceiver : MonoBehaviour
     {
         if (collision.gameObject == attackingPlayer)
         {
+            Debug.Log("Player get attacked");
             StartCoroutine(KnockBack());
         }
     }

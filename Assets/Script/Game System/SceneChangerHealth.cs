@@ -5,12 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneChangerHealth : MonoBehaviour
 {
-    public Health health;
+    private Health health;
     public Timer Timer;
     private Scene scene;
     private void Awake()
     {
-        scene = SceneManager.GetActiveScene();        
+        scene = SceneManager.GetActiveScene();    
+        health = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
     }
 
     // Update is called once per frame

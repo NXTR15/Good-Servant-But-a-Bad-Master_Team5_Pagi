@@ -8,11 +8,11 @@ public class Health : MonoBehaviour
 {
     public float HealthCount;
     [SerializeField] private float DamageCount;
-    private GameObject attackingPlayer;
+    private ForceReceiver forceReceiver;
 
     private void Awake()
     {
-        attackingPlayer = GameObject.FindGameObjectWithTag("AttackingPlayer");
+        forceReceiver = GetComponent<ForceReceiver>();
     }
 
     private void Update()
@@ -26,9 +26,9 @@ public class Health : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject == attackingPlayer)
+        if (collision.gameObject == forceReceiver.attackingPlayer)
         {
-            
+            Debug.Log("Player Health decreased");
             HealthCount -= DamageCount;
         }
     }
