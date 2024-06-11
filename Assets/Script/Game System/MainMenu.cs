@@ -22,7 +22,7 @@ public class MainMenu : MonoBehaviour
     {
         DisableMenuButton();
         DataPersistenceManager.instance.NewGame();
-        SceneManager.LoadSceneAsync("MainArea");
+        SceneManager.LoadSceneAsync("CityArea");
     }
 
     public void ContinueClick()

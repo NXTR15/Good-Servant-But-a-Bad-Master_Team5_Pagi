@@ -5,27 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    public Health health;
-    public Timer Timer;
-    private Scene scene;
-    private void Awake()
+    private GameObject player;
+    public string sceneName;
+    // Start is called before the first frame update
+    void Start()
     {
-        scene = SceneManager.GetActiveScene();        
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (health.HealthCount <= 0)
+        if (collision.gameObject == player && player != null)
         {
-            Invoke("RestartScene", 1f);
+            SceneManager.LoadSceneAsync(sceneName);
         }
+        return;
     }
 
-    private void RestartScene()
-    {      
-        SceneManager.LoadScene(scene.name);
+    public void ToGameplay()
+    {
+        SceneManager.LoadSceneAsync(sceneName);
     }
-
-
 }
