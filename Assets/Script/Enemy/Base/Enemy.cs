@@ -13,7 +13,6 @@ public class Enemy : MonoBehaviour, IDamagable, IEnemyMovable, ITriggerCheckable
     }
 
     [field: SerializeField] public float MaxHealth { get; set; }
-    [field: SerializeField] public Transform target;
     public float CurrentHealth { get; set; }
     public Rigidbody2D rb { get; set; }
     public Animator animator { get; set; }

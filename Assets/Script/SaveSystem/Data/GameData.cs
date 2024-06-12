@@ -6,13 +6,11 @@ using UnityEngine;
 public class GameData
 {
     public float TimeRemaining;
-    public float ScoreInMinigames;
-    public Dictionary<string, bool> sceneIsFinished;
+    public SerializableDictionary<string, bool> doorOpened;
 
     public GameData()
     {
-        this.TimeRemaining = 90;
-        this.ScoreInMinigames = 0;
-        sceneIsFinished = new Dictionary<string, bool>();
+        this.TimeRemaining = 300;
+        doorOpened = new SerializableDictionary<string, bool>();
     }
 }

@@ -19,7 +19,7 @@ public class ForceReceiver : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject == attackingPlayer)
+        if (collision.gameObject.CompareTag("AttackingPlayer"))
         {
             Debug.Log("Player get attacked");
             StartCoroutine(KnockBack());

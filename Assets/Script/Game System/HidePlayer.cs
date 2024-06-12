@@ -16,7 +16,6 @@ public class HidePlayer : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Staying");
         if (collision.gameObject == player)
         {
             IsPlayerCanHide = true;
@@ -25,7 +24,6 @@ public class HidePlayer : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log("Leaving");
         if (collision.gameObject == player)
         {
             IsPlayerCanHide = false;

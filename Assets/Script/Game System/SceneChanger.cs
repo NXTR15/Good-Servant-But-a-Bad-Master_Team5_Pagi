@@ -24,6 +24,7 @@ public class SceneChanger : MonoBehaviour
 
     public void ToGameplay()
     {
+        DataPersistenceManager.instance.NewGame();
         SceneManager.LoadSceneAsync(sceneName);
     }
 }

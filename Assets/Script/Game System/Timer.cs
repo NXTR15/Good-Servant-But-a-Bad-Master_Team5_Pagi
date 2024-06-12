@@ -34,23 +34,8 @@ public class Timer : MonoBehaviour, IDataPersistence
         else if (remainingTime <= 0)
         {           
             remainingTime = 0;
-            
-            if (scoreSystem?.score >= 5)
-            {
-                SceneManager.LoadScene(WinSceneName);
-            }
-            else if (scoreSystem?.score < 5)
-            {
-                SceneManager.LoadScene(LoseSceneName);
-            }
+            DataPersistenceManager.instance.NewGame();
             SceneManager.LoadScene(CutsceneSceneName);
-
-        }
-
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            DataPersistenceManager.instance.SaveGame();
-            SceneManager.LoadSceneAsync("MainMenu");
         }
 
         int minutes = Mathf.FloorToInt(remainingTime / 60);

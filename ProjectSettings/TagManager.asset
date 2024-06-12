@@ -9,6 +9,7 @@ TagManager:
   - Ball
   - Heroine
   - Door
+  - AttackingPlayer2
   layers:
   - Default
   - TransparentFX

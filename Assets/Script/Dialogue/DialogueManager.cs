@@ -17,7 +17,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject ContinueIcon;
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI displayNameText;
-    [SerializeField] private Animator potraitAnimator;
+    //[SerializeField] private Animator potraitAnimator;
 
     [Header("Choices UI")]
     [SerializeField] private GameObject[] choices;
@@ -29,7 +29,7 @@ public class DialogueManager : MonoBehaviour
     private Animator layoutAnimator;
     private Coroutine displayLineCoroutine;
     private const string Speaker_Tag = "speaker";
-    private const string Potrait_Tag = "potrait";
+    //private const string Potrait_Tag = "potrait";
     private const string Layout_Tag = "layout";
 
     private bool canContinueToNextLine = false;
@@ -93,7 +93,7 @@ public class DialogueManager : MonoBehaviour
 
         //reset potrait, layout, speaker
         displayNameText.text = "???";
-        potraitAnimator.Play("Default");
+        //potraitAnimator.Play("Default");
         layoutAnimator.Play("right");
 
         ContinueStory();
@@ -166,6 +166,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         ContinueIcon.SetActive(true);
+
         //Display choices if any
         DisplayChoices();
 
@@ -199,15 +200,9 @@ public class DialogueManager : MonoBehaviour
             {
                 case Speaker_Tag:
                     displayNameText.text = tagValue;
-                    Debug.Log("speaker=" + tagValue);
-                    break;
-                case Potrait_Tag:
-                    potraitAnimator.Play(tagValue);
-                    Debug.Log("potrait=" + tagValue);
                     break;
                 case Layout_Tag:
                     layoutAnimator.Play(tagValue);
-                    Debug.Log("layout=" + tagValue);
                     break;
                 default:
                     Debug.LogWarning("Tag came in but is not being handled: " + tag);
@@ -241,7 +236,6 @@ public class DialogueManager : MonoBehaviour
         {
             choices[i].gameObject.SetActive(false);
         }
-
         StartCoroutine(SelectFirstChoice());
     }
 

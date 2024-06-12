@@ -16,6 +16,7 @@ public class BallHandler : MonoBehaviour
     private bool isDragging;
     private Rigidbody2D currentBallRigidbody;
     private SpringJoint2D currentBallSpringJoint;
+    private GameObject ballInstance;
     private void Start()
     {
         m_Camera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
@@ -51,15 +52,17 @@ public class BallHandler : MonoBehaviour
 
     private void SpawnNewBall()
     {
-        GameObject ballInstance = Instantiate(ballPrefab, pivot.position, Quaternion.identity);
+        ballInstance = Instantiate(ballPrefab, pivot.position, Quaternion.identity);
         currentBallRigidbody = ballInstance.GetComponent<Rigidbody2D>();
         currentBallSpringJoint = ballInstance.GetComponent<SpringJoint2D>();
 
         currentBallSpringJoint.connectedBody = pivot;
+        ballInstance.tag = "Untagged";
     }
 
     IEnumerator LaunchBall()
     {
+        ballInstance.tag = "Ball";
         currentBallRigidbody.isKinematic = false;
         currentBallRigidbody = null;
 

@@ -46,4 +46,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initializeDataIfNull: 0
   fileName: savedata.game
-  autoSaveTimer: 10
+  autoSaveTimer: 15

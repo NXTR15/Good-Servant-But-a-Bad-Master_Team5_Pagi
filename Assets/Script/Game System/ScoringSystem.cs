@@ -3,22 +3,12 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class ScoringSystem : MonoBehaviour, IDataPersistence
+public class ScoringSystem : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI scoreText;
     private GameObject ball;
     private Animator HeroineAnimator;
     public float score {get; private set;}
-
-    public void LoadData(GameData data)
-    {
-        this.score = data.ScoreInMinigames;
-    }
-
-    public void SaveData(GameData data)
-    {
-        data.ScoreInMinigames = this.score;
-    }
 
     private void Awake()
     {
@@ -27,9 +17,12 @@ public class ScoringSystem : MonoBehaviour, IDataPersistence
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        score++;
-        Debug.Log(score);
-        StartCoroutine(HeroineExpressionChange());
+        if (collision.gameObject.CompareTag("Ball"))
+        {
+            score++;
+            Debug.Log(score);
+            StartCoroutine(HeroineExpressionChange());
+        }
     }
     private void Update()
     {

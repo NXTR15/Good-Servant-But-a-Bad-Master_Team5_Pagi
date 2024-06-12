@@ -26,7 +26,7 @@ public class Health : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject == forceReceiver.attackingPlayer)
+        if (collision.gameObject.CompareTag("AttackingPlayer"))
         {
             Debug.Log("Player Health decreased");
             HealthCount -= DamageCount;
