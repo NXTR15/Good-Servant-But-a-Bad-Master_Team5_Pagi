@@ -6,8 +6,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SearchService;
+using UnityEngine.UI;
 
-public class DialogueManager : MonoBehaviour
+public class DialogueManager : MonoBehaviour,IDataPersistence
 {
     [Header("Parameter")]
     [SerializeField] private float typingSpeed = 0.04f;
@@ -19,9 +20,15 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI displayNameText;
     //[SerializeField] private Animator potraitAnimator;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip DialogueTypingSoundClip;
+    [SerializeField] private bool StopAudioSource;
+    [SerializeField] private Slider slider;
+
     [Header("Choices UI")]
     [SerializeField] private GameObject[] choices;
 
+    private AudioSource audioSource;
     private TextMeshProUGUI[] choicesText;
     private Story currentStory;
     private static DialogueManager instance;
@@ -44,6 +51,8 @@ public class DialogueManager : MonoBehaviour
         }
         instance = this;
         playerStatemachine = GameObject.FindGameObjectWithTag("Player").GetComponent<StateMachine>();
+
+        audioSource = this.gameObject.AddComponent<AudioSource>();  
     }
 
     public static DialogueManager GetInstance()
@@ -70,10 +79,9 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
+        audioSource.volume = slider.value;
         if (!isDialoguePlaying)
         {
-            Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
             return;
         }
 
@@ -161,6 +169,11 @@ public class DialogueManager : MonoBehaviour
             else
             {
                 dialogueText.text += letter;
+                if (StopAudioSource)
+                {
+                    audioSource.Stop();
+                }
+                audioSource.PlayOneShot(DialogueTypingSoundClip);
                 yield return new WaitForSeconds(typingSpeed);
             }
         }
@@ -253,5 +266,15 @@ public class DialogueManager : MonoBehaviour
             currentStory.ChooseChoiceIndex(choiceIndex);
             ContinueStory();
         }     
+    }
+
+    public void LoadData(GameData data)
+    {
+        this.slider.value = data.SliderValueSFX;
+    }
+
+    public void SaveData(GameData data)
+    {
+        data.SliderValueSFX = slider.value;
     }
 }

@@ -14,8 +14,6 @@ public class DialogueTrigger : MonoBehaviour
 
     private void Awake()
     {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
         isPlayerCanTalk = false;
         visualCue.SetActive(false);
     }
@@ -27,8 +25,6 @@ public class DialogueTrigger : MonoBehaviour
             visualCue.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E))
             {
-                Cursor.visible = true;
-                Cursor.lockState = CursorLockMode.Confined;
                 DialogueManager.GetInstance().EnterDialogueMode(inkJSON);
             }
         }
