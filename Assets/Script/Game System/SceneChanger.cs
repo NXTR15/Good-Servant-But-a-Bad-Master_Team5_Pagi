@@ -7,6 +7,8 @@ public class SceneChanger : MonoBehaviour
 {
     private GameObject player;
     public string sceneName;
+    [SerializeField] private GameObject WinPanel;
+    [SerializeField] private float timerToNextScene;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +19,7 @@ public class SceneChanger : MonoBehaviour
     {
         if (collision.gameObject == player && player != null)
         {
-            SceneManager.LoadSceneAsync(sceneName);
+            StartCoroutine(LoadFinishScene());
         }
         return;
     }
@@ -25,6 +27,13 @@ public class SceneChanger : MonoBehaviour
     public void ToGameplay()
     {
         DataPersistenceManager.instance.NewGame();
+        SceneManager.LoadSceneAsync(sceneName);
+    }
+
+    private IEnumerator LoadFinishScene()
+    {
+        WinPanel.SetActive(true);
+        yield return new WaitForSeconds(timerToNextScene);
         SceneManager.LoadSceneAsync(sceneName);
     }
 }
