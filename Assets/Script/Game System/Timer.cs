@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour, IDataPersistence
     [SerializeField] private TextMeshProUGUI timerText;   
     [SerializeField] private string WinSceneName;
     [SerializeField] private string LoseSceneName;
-    [SerializeField] private string CutsceneSceneName;
+    [SerializeField] private string TimeoutSceneName;
 
     public float remainingTime;
 
@@ -35,7 +35,7 @@ public class Timer : MonoBehaviour, IDataPersistence
         {           
             remainingTime = 0;
             DataPersistenceManager.instance.NewGame();
-            SceneManager.LoadScene(CutsceneSceneName);
+            SceneManager.LoadScene(TimeoutSceneName);
         }
 
         int minutes = Mathf.FloorToInt(remainingTime / 60);

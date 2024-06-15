@@ -8,7 +8,7 @@ public class ScoringSystem : MonoBehaviour
     [SerializeField] private TextMeshProUGUI scoreText;
     private GameObject ball;
     private Animator HeroineAnimator;
-    public float score {get; private set;}
+    [field:SerializeField] public float score {get; private set;}
 
     private void Awake()
     {
@@ -19,6 +19,7 @@ public class ScoringSystem : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ball"))
         {
+            AudioManager.Instance.PlaySoundEffect("Score");
             score++;
             Debug.Log(score);
             StartCoroutine(HeroineExpressionChange());

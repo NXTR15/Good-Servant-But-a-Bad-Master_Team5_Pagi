@@ -8,7 +8,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.SearchService;
 using UnityEngine.UI;
 
-public class DialogueManager : MonoBehaviour,IDataPersistence
+public class DialogueManager : MonoBehaviour
 {
     [Header("Parameter")]
     [SerializeField] private float typingSpeed = 0.04f;
@@ -21,14 +21,11 @@ public class DialogueManager : MonoBehaviour,IDataPersistence
     //[SerializeField] private Animator potraitAnimator;
 
     [Header("Audio")]
-    [SerializeField] private AudioClip DialogueTypingSoundClip;
     [SerializeField] private bool StopAudioSource;
-    [SerializeField] private Slider slider;
 
     [Header("Choices UI")]
     [SerializeField] private GameObject[] choices;
 
-    private AudioSource audioSource;
     private TextMeshProUGUI[] choicesText;
     private Story currentStory;
     private static DialogueManager instance;
@@ -51,8 +48,6 @@ public class DialogueManager : MonoBehaviour,IDataPersistence
         }
         instance = this;
         playerStatemachine = GameObject.FindGameObjectWithTag("Player").GetComponent<StateMachine>();
-
-        audioSource = this.gameObject.AddComponent<AudioSource>();  
     }
 
     public static DialogueManager GetInstance()
@@ -79,7 +74,6 @@ public class DialogueManager : MonoBehaviour,IDataPersistence
 
     private void Update()
     {
-        audioSource.volume = slider.value;
         if (!isDialoguePlaying)
         {
             return;
@@ -169,11 +163,7 @@ public class DialogueManager : MonoBehaviour,IDataPersistence
             else
             {
                 dialogueText.text += letter;
-                if (StopAudioSource)
-                {
-                    audioSource.Stop();
-                }
-                audioSource.PlayOneShot(DialogueTypingSoundClip);
+                AudioManager.Instance.PlaySoundEffect("Talking");
                 yield return new WaitForSeconds(typingSpeed);
             }
         }
@@ -266,15 +256,5 @@ public class DialogueManager : MonoBehaviour,IDataPersistence
             currentStory.ChooseChoiceIndex(choiceIndex);
             ContinueStory();
         }     
-    }
-
-    public void LoadData(GameData data)
-    {
-        this.slider.value = data.SliderValueSFX;
-    }
-
-    public void SaveData(GameData data)
-    {
-        data.SliderValueSFX = slider.value;
     }
 }

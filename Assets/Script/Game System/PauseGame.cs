@@ -7,6 +7,11 @@ public class PauseGame : MonoBehaviour
     [SerializeField] private GameObject PausePanel;
     private bool isGamePaused = false;
 
+    private void Start()
+    {
+        PausePanel.SetActive(false);
+    }
+
     // Update is called once per frame
     void Update()
     {
