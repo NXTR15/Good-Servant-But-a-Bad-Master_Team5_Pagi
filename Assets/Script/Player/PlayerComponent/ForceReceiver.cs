@@ -9,9 +9,11 @@ public class ForceReceiver : MonoBehaviour
     public GameObject attackingPlayer;
     private StateMachine stateMachine;
     private SpriteRenderer spriteRenderer;
+    private HidePlayer hideableBox;
 
     private void Awake()
     {
+        hideableBox = GameObject.FindGameObjectWithTag("HideBox").GetComponent<HidePlayer>();
         attackingPlayer = GameObject.FindGameObjectWithTag("AttackingPlayer");
         rigidBody2D = GetComponent<Rigidbody2D>();
         stateMachine = GetComponent<PlayerStateMachine>();
@@ -30,13 +32,16 @@ public class ForceReceiver : MonoBehaviour
     {
         yield return null;
         stateMachine.enabled = false;
+        hideableBox.enabled = false;
         yield return null;
+        AudioManager.Instance.PlaySoundEffect("Hit");
         Vector2 direction = (this.transform.position - attackingPlayer.transform.position).normalized;
         rigidBody2D.AddForce(direction * this.KnockbackStrength, ForceMode2D.Impulse);
         yield return null;
         spriteRenderer.color = Color.red;
         yield return new WaitForSeconds(0.5f);
         stateMachine.enabled = true;
+        hideableBox.enabled = true;
         spriteRenderer.color = Color.white;
     }
 }

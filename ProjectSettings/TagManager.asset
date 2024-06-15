@@ -12,6 +12,7 @@ TagManager:
   - AttackingPlayer2
   - SliderBGM
   - SliderSFX
+  - HideBox
   layers:
   - Default
   - TransparentFX
