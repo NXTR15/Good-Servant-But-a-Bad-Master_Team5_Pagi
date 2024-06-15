@@ -61,6 +61,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 6a6018f6e736faa429c339de5ed15e3a, type: 3}
   - name: Talking
     clip: {fileID: 8300000, guid: 6769441524f678a4f8b68b245bd25f01, type: 3}
+  - name: Hit
+    clip: {fileID: 8300000, guid: 6769441524f678a4f8b68b245bd25f01, type: 3}
   musicSource: {fileID: 2977481710203494568}
   sfxSource: {fileID: 4447465438134123512}
 --- !u!1 &2263752694567738109
