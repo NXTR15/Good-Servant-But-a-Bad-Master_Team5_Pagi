@@ -2898,7 +2898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: CutsceneDarkRoom
   WinPanel: {fileID: 1949090898}
-  timerToNextScene: 0
+  timerToNextScene: 3
 --- !u!1 &1108688421
 GameObject:
   m_ObjectHideFlags: 0
