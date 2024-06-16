@@ -1208,8 +1208,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd81b9b3c9ab6d345bc194624db0cd54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: BasketBallMinigame
-  WinPanel: {fileID: 0}
+  sceneName: Cutscene 4
+  WinPanel: {fileID: 1655046814}
   timerToNextScene: 0
 --- !u!1 &1761861223
 GameObject:
@@ -2425,8 +2425,24 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3455389599883973748, guid: dcb01633c6c951e438a18bbe9a6f52b9, type: 3}
+      propertyPath: m_Value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4370206655197606113, guid: dcb01633c6c951e438a18bbe9a6f52b9, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4370206655197606113, guid: dcb01633c6c951e438a18bbe9a6f52b9, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4370206655197606113, guid: dcb01633c6c951e438a18bbe9a6f52b9, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636616671583047364, guid: dcb01633c6c951e438a18bbe9a6f52b9, type: 3}
+      propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7636616671583047364, guid: dcb01633c6c951e438a18bbe9a6f52b9, type: 3}

@@ -1887,9 +1887,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreSystem: {fileID: 0}
   timerText: {fileID: 1526336570}
-  WinSceneName: 
-  LoseSceneName: 
-  TimeoutSceneName: 
+  WinSceneName: Cutscene 2.2
+  LoseSceneName: Cutscene 2.1
+  TimeoutSceneName: Cutscene 2.1
   remainingTime: 10
 --- !u!1 &860620188
 GameObject:
@@ -2337,7 +2337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd81b9b3c9ab6d345bc194624db0cd54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: TutorialMain
+  sceneName: Cutscene 2.2
   WinPanel: {fileID: 1452807082}
   timerToNextScene: 3
 --- !u!1001 &1118378849

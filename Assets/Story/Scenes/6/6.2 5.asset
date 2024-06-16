@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb56ab7b37187284cae9b6e39483fb7f, type: 3}
+  m_Name: 6.2 5
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Don\u2019t said because your crush is watching!"
+    speaker: {fileID: 11400000, guid: bbf5c036a34b9b744b0d86e72d01bccd, type: 2}
+  background: {fileID: 21300000, guid: ef72032365e45354e827e111531ea124, type: 3}
+  backgroundPosition: {x: 0, y: 0}
+  nextScene: {fileID: 11400000, guid: c03d618faa7ad044abd82a7be0134379, type: 2}
