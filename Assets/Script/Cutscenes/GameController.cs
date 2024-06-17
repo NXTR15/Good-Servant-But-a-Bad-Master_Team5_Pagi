@@ -8,7 +8,6 @@ public class GameController : MonoBehaviour
     public BottomBarController bottomBar;
     public BackgroundController backgroundController;
     public GameObject nextButton;
-
     private bool reachedEnd = false;
 
     void Start()

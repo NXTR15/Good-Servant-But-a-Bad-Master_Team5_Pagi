@@ -15,4 +15,4 @@ MonoBehaviour:
   sentences: []
   background: {fileID: 21300000, guid: 018f8b29b0e5f9841b1dc760c471d010, type: 3}
   backgroundPosition: {x: 0, y: 0}
-  nextScene: {fileID: 11400000, guid: bc7f71435f0d6bb4f8fd1be217699664, type: 2}
+  nextScene: {fileID: 11400000, guid: d97b228600452c74597a710666c3c85b, type: 2}

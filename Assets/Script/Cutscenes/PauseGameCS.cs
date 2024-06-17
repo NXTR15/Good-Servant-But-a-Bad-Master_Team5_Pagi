@@ -29,5 +29,6 @@ public class PauseGameCS : MonoBehaviour
             PausePanel.SetActive(false);
             isGamePaused = false;
         }
+        Debug.Log("Time.timeScale: " + Time.timeScale);
     }
 }
