@@ -1897,8 +1897,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreSystem: {fileID: 0}
   timerText: {fileID: 1526336570}
-  WinSceneName: 
-  LoseSceneName: 
+  WinSceneName: Cutscene 2.2
+  LoseSceneName: Cutscene 2.2
   TimeoutSceneName: Cutscene 2.1
   timerToNextScene: 2
   transitionTime: 2
@@ -2353,7 +2353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: Cutscene 2.2
   WinPanel: {fileID: 1452807082}
-  timerToNextScene: 3
+  timerToNextScene: 2
   transitionTime: 2
   animator: {fileID: 1287082402}
 --- !u!1001 &1118378849
