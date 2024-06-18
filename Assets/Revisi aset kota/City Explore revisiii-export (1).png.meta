@@ -1,0 +1,3515 @@
+fileFormatVersion: 2
+guid: c55743ba156d88c4e8aacbedb6dab361
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d468f580bbc3ff4c8ee239e78290244
+      internalID: 718613179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed72f429b0ec2e428d747d5f394aebf
+      internalID: 645279151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ae1ed78bb516043b21025f233ab762
+      internalID: -1445967132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332fcf9dbc03e214da04209a275739bb
+      internalID: 1152950143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677867a7484255345896ff54b9b793d9
+      internalID: 1148652880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c127329e62e7e75458060f719be35804
+      internalID: -1859459678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6f122ab72336048bc7027b12733976
+      internalID: 1597369585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_7
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40d8f0f1af266b469d11f406988383e
+      internalID: -643521201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7492064fb9c22d438bf4188175c543c
+      internalID: -1361550509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_9
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c639cfb4e73ec42b610bf43b082ef2
+      internalID: -1836578212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e4fc9422e29284cad3b0fd6c4df29d
+      internalID: -701897533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_11
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a57dc6f92a74c4fad2d2319533ef92
+      internalID: -1292921472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e72252357c8754fad9cd430e2bd05c
+      internalID: 1878746021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcb3132cf720ab4b9eabe84957ce151
+      internalID: -1000470794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_14
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2db24cc2bb0ee446a986f50e9606f5a
+      internalID: -356355493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_15
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e358853d6cebe4bbe981ef5a8e32eb
+      internalID: -283369923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_16
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb4cc95f61aa5b488ce4cbb1cfa2792
+      internalID: 1551688336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_17
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772dfed35bb70e94a8776d847b37a811
+      internalID: 1162364683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_18
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0df62659a0c0c4ca41d7264f0c50f3
+      internalID: 1134254605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_19
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de303f796376434387e73059c266910
+      internalID: 620150230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_20
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc84904f2eeb9945b8da44d950d13ab
+      internalID: -2093410489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5277012beedc91d48bd2a58ab5fc4002
+      internalID: 2047737572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44214d10d2d2b549a4c40ddbdf54bca
+      internalID: -1587680931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_23
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7173f3dd3f6bd04dbe3476cb9dd4c50
+      internalID: -2073735456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_24
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2461b16bde9b894bb8b675111775a1b
+      internalID: -518230718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_25
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be54860e480fb749b87302ceff796ee
+      internalID: -1533981715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_26
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49eab3f4770b6d498305fc3516aae44
+      internalID: -1575090466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_27
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98293992821e5e443b10c6364c4dc64e
+      internalID: -831978298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_28
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690ba69a5a72128429399e6b64c16c88
+      internalID: 1409004751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_29
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79440e384c108040ab2940e1896d5bf
+      internalID: -866532097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_30
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af4522ccc1cd36438fa1fd345f58ca4
+      internalID: 1020774038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_31
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50171edd47971714eb530e278a36840b
+      internalID: -1518556949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_32
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d215cd533f3ee4196fb77367b68723
+      internalID: -2128302059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_33
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff61a2839192fec479d6cc7f84c1c195
+      internalID: 256879801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_34
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8c1895608b41d4bbc24e65f5b49aa7
+      internalID: 1654638561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_35
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8bbbe60ffca1545a6be9538bccd116
+      internalID: -462025964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_36
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d837c8de2c36010448c1a31598b43600
+      internalID: -1544775834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_37
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e7b81a0e5dbd54386d2c9630152b05
+      internalID: -78834802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_38
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd405f62f841594198959c945746dd6
+      internalID: -1432053791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_39
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea977f896397c74bae27d1993a1d084
+      internalID: 1575015241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_40
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 952
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87478fdd54f53146af6ac1177ee9ec9
+      internalID: -184789438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286a4ab1a126da54fbc97f324e093a03
+      internalID: -619257769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a045c13df4a5f4ab4ae02016955e04
+      internalID: 1682152368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5eca6d5139b174fac8d6c39883f7a5
+      internalID: -460021072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_44
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11eae935f1f836845afabd01cdbe7e38
+      internalID: 1639113391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_45
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b5ed7e08759794abede38cd6e2b759
+      internalID: 619205177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b5711fa1e4564489736a1f0832f2b6
+      internalID: 1659537659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_47
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f48fdcc96ff0ca4e86eccf900a1c490
+      internalID: 2036187434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_48
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de90cce26eddf6446938700174c333b8
+      internalID: -128827658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_49
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0702b0d35aad92444a35de55ff04936c
+      internalID: 616680142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_50
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2913f7d31a9e6584ca175e82f5bb5c58
+      internalID: 401913304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_51
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69420caf1921374288f12550ccfc318
+      internalID: -1092108756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_52
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d275eacca608c6a48a120bcafa7d93b8
+      internalID: 2145206924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_53
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e509b65d4be904443ad8d0e497e79290
+      internalID: 535594668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_54
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fb37913fa3a6e4ab179a955cd24f56
+      internalID: -675185739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_55
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957bff3d349cfa842a15c587658d883f
+      internalID: -687021718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_56
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b487aa0dad5de84f8646377c904d3f3
+      internalID: -897667279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_57
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4286636d09e2ac148b03d70ddf7a20ec
+      internalID: 1134321057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_58
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a2204fa99df4e4597be4f6a27b9da3
+      internalID: -709308939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_59
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906afdf3693351b43ad89a1fe29b61d8
+      internalID: 1163275002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_60
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6674f461c38e06b4bbfb4148fc0a47a2
+      internalID: 1333131346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_61
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a68edfa8f0a19c44a4959929d940cf7
+      internalID: -901046411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_62
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aad49c38c6de84f9002ede4a1395d5
+      internalID: 1780889107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_63
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f627510456a2444915ea8d2b0177eb
+      internalID: 621011714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_64
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a64b20f439612469bb40254d8bcb3e
+      internalID: 2075732703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_65
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03840c97a43a5c34a9b64b4afa2c1198
+      internalID: 1030936807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_66
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07253dd1d03393848938ae4551d1394c
+      internalID: 2093917976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_67
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebcb564264e0d74d984252788293308
+      internalID: -1394788732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_68
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd1db6a6ba85bf43b7aa1c270d6220b
+      internalID: -2020110135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_69
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d121b748cea3e45b22e46624f6c609
+      internalID: 730807216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_70
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ed473f2466cba45997b4a2cfb888de
+      internalID: 1616404709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_71
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74321faadc97b443aa40c0b85d1fcad
+      internalID: 17348070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_72
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a846622f9a8bb845be9fa00672f259f
+      internalID: -1288883170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_73
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd31a682917cd7b42aede26aece66493
+      internalID: 458498990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_74
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 904
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6497767d686a5e34385198e9c02eea43
+      internalID: -1872452509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_75
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 904
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b645cba9012e3f418696ab1215827ea
+      internalID: 1758896653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_76
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 910
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee96b0b9ee9bcc45800062d3d67c568
+      internalID: -818840272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_77
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 904
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b2893b0995a6e409ce91f266c2eef0
+      internalID: -2071192139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_78
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 904
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6012e6182164fe147a95d71da57817d9
+      internalID: 956123989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_79
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 904
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da35e2e14f87dbc41bbaa72d2d07756b
+      internalID: -637094054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_80
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 904
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89a16a5c52c9c745b297440d92cae82
+      internalID: -1109883415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 856
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3410442c3405145a2fbe590380c0ea
+      internalID: -430771091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_82
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 856
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973179515101dc04492b5d1f6a3c6db2
+      internalID: -468684622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_83
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 856
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0eb816af1e41f84885d7c4a29c2b40e
+      internalID: 1025933803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_84
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 856
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf8ac1723ade68439054c40b33a3e41
+      internalID: 1351139328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_85
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 856
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7705bf4187fb54eb398de965dcea85
+      internalID: 1866143853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_86
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 856
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e062820a310022948b5cb53761035a57
+      internalID: -1081466605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_87
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 865
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608032c6ce16fb84aae381b34bf8ddcf
+      internalID: 142106596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_88
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 866
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8269366d843f6514f8cb21fb64d40bcc
+      internalID: -207569339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_89
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 860
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e094dc19c4df5864abeff79dca0dc130
+      internalID: -1546703676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_90
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 864
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4b2f39dc775754b8b0bf5746c115af
+      internalID: -465517017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_91
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 864
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d051ee1906ceb469d42b74cc0e6775
+      internalID: 184593678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_92
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 856
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1250b47d789dbd849964ad0449bd5e3c
+      internalID: -1745083669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_93
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 866
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aee01c13112676449f320d64b9be386
+      internalID: 596200851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_94
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 863
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c333a92e97d34e42b27c09b02fd858a
+      internalID: -699546919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_95
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 861
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24461ad4866601043ba10f6b08586b70
+      internalID: 553818853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_96
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 859
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7958f757ea61641b957bce5e4d2b5b
+      internalID: -993775869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_97
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 866
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98995d94164dc84a9fb440df2332f60
+      internalID: 910278616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_98
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 864
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49784b8395ea15d4ab182810a17092f9
+      internalID: -1204057411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_99
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 864
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d25ef9cf372d64197562b933acc416
+      internalID: 324041959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_100
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 834
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af16b12d499bd74893917b69d1023a3
+      internalID: 653265120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_101
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 834
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde26de04ab352b49991bff8cfa5ecd1
+      internalID: 2129578578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_102
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 840
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05d08d752cd58b43adb0b4a5d064009
+      internalID: -1979777107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_103
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 840
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a338563a9169c4a4788b50d171c72f29
+      internalID: -1750168097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_104
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 840
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35661c7411e2354cac3c074f16121f2
+      internalID: -1631199227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_105
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 840
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43560acdaad32ee4f8d05e078d57a009
+      internalID: 938594749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_106
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 840
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbecbb184eeaf6b48a62816cb5876187
+      internalID: -1177619140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_107
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 840
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa31376f848d7f439a7327bac79089b
+      internalID: -1774064881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_108
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 840
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed41b595c283ef54f8a6240cc9a23d27
+      internalID: 339358485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_109
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 840
+        width: 7
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a532a4978def5f94a9812ec5baabb171
+      internalID: -1144619821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_110
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 840
+        width: 7
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ae648b8a7121a42a4e322879c1a8a1
+      internalID: -1898903975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_111
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 824
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7597f2bae73416f478a391e504183dc1
+      internalID: 1932392670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_112
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 837
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bce8c70299fac4caef734da7936c03
+      internalID: 372212228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_113
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 837
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292e4293fa2b42d4f86570cc4e295e97
+      internalID: 25813074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_114
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 837
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184a4a5f13f6fcc45a14aa5a2069642b
+      internalID: 1130782999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_115
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 837
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cf7a3a0ae20414e87a6800e3ec8f4d
+      internalID: 1618556281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_116
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 856
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71adba4296dd4d74b80ef2f8e0ee02e8
+      internalID: -1390579821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_117
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 856
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dbe3252c6c2c54081b36e2ee7fc984
+      internalID: -1088317155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_118
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 850
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66378d259a695f749a26f3571f13a8dd
+      internalID: 2140100795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_119
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 850
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93217f0ca46cec4a904aafbac342d3d
+      internalID: -435992046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_120
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 850
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5468426c15abd945831c6e3ab4b7df5
+      internalID: -1184824431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_121
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 712
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3d82bce2938c44f8cb1be61cb01f3a
+      internalID: -1019024499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_122
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 712
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a160e7d160072b428922d5290ab830a
+      internalID: -2017268199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_123
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 712
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4292cdb566ee39b48b480b2cc827b608
+      internalID: -14179194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_124
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 712
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f25e1b1759cac42bc11130e5868de5
+      internalID: 374562924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_125
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 713
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4cc03f4802c2145bb93254a4f39538
+      internalID: -1661488357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_126
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 712
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0df462a75fb9b54ea7d7a6bf31b2296
+      internalID: 19084364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_127
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 713
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef85b84f1e95154283464d5fa094645
+      internalID: -345695598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_128
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 713
+        width: 118
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889931ea81fa69e4c8783cc5446562f4
+      internalID: 1343562952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_129
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b46aa42f8d8f8142aa2dc1a693aafcb
+      internalID: -685039274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_130
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353b44d17dcb59441b3502495c94acd5
+      internalID: 1747027032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_131
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2e2b6517d09d3458647c9b64b0e057
+      internalID: -491008702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_132
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 744
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d32326db25b51243b8f45cbae43de28
+      internalID: 4855235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_133
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 744
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2022f9e5557b6c64fadf4e3f3062d722
+      internalID: -664471745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_134
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 744
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b7c8ed41d06694787229d6a3a56e97
+      internalID: 1148442146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_135
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 744
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244cd047eaba0454684451a9a1086398
+      internalID: 528364896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_136
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 744
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b6218f3da1ab74c93b40f6251510b0
+      internalID: 1710604549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_137
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 744
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c632d7f22f5dfb4193207f2166b37d5
+      internalID: 1349433905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_138
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 391
+        width: 96
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc70d0e2e001db4ea995e7921c3db6b
+      internalID: 1661406629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_139
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 392
+        width: 160
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f4b3c1353e5f34987bdc4802b0a4c8
+      internalID: 1092072240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_140
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 392
+        width: 192
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01a6621d2e75a746bddc9de5a150e17
+      internalID: -146395387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_141
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 392
+        width: 224
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc182a27c21e8f45a61504964098417
+      internalID: -844708967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_142
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 392
+        width: 96
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee8a3fe61df79b45bf1ca733d515f13
+      internalID: 498211999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_143
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 392
+        width: 192
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46cb3dd6089cf1429f6d443ab52f71c
+      internalID: 869606292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_144
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 392
+        width: 160
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889b4efc369770b4f9465cbec98c495d
+      internalID: -277322420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_145
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 392
+        width: 160
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7616c2c158b524548a1ef58f821b1a84
+      internalID: 908513054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_146
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 392
+        width: 160
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264113f52eb389d4a871b557129e11ac
+      internalID: 1402656555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_147
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 72
+        width: 160
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e46943f985c4c149a2cc45889064f11
+      internalID: 1689869663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_148
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 72
+        width: 160
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9ecb319856ca247a22970675daa69e
+      internalID: 1571290461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_149
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 72
+        width: 192
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6725fefe3248d2d41bd1228e9996dd14
+      internalID: -1899168015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_150
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 72
+        width: 96
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976d402886b1dbc469d724ec7b4732d6
+      internalID: 1326846532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_151
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 72
+        width: 160
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ab38bd91c5d5045b9cf57fead68b97
+      internalID: 1224583856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_152
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 72
+        width: 192
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934e9b66e3180874fbdaeff43388a725
+      internalID: 2129395475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: City Explore revisiii-export (1)_153
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 72
+        width: 224
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8daf4705d2c988544a3cb35f17a75c7e
+      internalID: -1160178048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      City Explore revisiii-export (1)_0: 718613179
+      City Explore revisiii-export (1)_1: 645279151
+      City Explore revisiii-export (1)_10: -701897533
+      City Explore revisiii-export (1)_100: 653265120
+      City Explore revisiii-export (1)_101: 2129578578
+      City Explore revisiii-export (1)_102: -1979777107
+      City Explore revisiii-export (1)_103: -1750168097
+      City Explore revisiii-export (1)_104: -1631199227
+      City Explore revisiii-export (1)_105: 938594749
+      City Explore revisiii-export (1)_106: -1177619140
+      City Explore revisiii-export (1)_107: -1774064881
+      City Explore revisiii-export (1)_108: 339358485
+      City Explore revisiii-export (1)_109: -1144619821
+      City Explore revisiii-export (1)_11: -1292921472
+      City Explore revisiii-export (1)_110: -1898903975
+      City Explore revisiii-export (1)_111: 1932392670
+      City Explore revisiii-export (1)_112: 372212228
+      City Explore revisiii-export (1)_113: 25813074
+      City Explore revisiii-export (1)_114: 1130782999
+      City Explore revisiii-export (1)_115: 1618556281
+      City Explore revisiii-export (1)_116: -1390579821
+      City Explore revisiii-export (1)_117: -1088317155
+      City Explore revisiii-export (1)_118: 2140100795
+      City Explore revisiii-export (1)_119: -435992046
+      City Explore revisiii-export (1)_12: 1878746021
+      City Explore revisiii-export (1)_120: -1184824431
+      City Explore revisiii-export (1)_121: -1019024499
+      City Explore revisiii-export (1)_122: -2017268199
+      City Explore revisiii-export (1)_123: -14179194
+      City Explore revisiii-export (1)_124: 374562924
+      City Explore revisiii-export (1)_125: -1661488357
+      City Explore revisiii-export (1)_126: 19084364
+      City Explore revisiii-export (1)_127: -345695598
+      City Explore revisiii-export (1)_128: 1343562952
+      City Explore revisiii-export (1)_129: -685039274
+      City Explore revisiii-export (1)_13: -1000470794
+      City Explore revisiii-export (1)_130: 1747027032
+      City Explore revisiii-export (1)_131: -491008702
+      City Explore revisiii-export (1)_132: 4855235
+      City Explore revisiii-export (1)_133: -664471745
+      City Explore revisiii-export (1)_134: 1148442146
+      City Explore revisiii-export (1)_135: 528364896
+      City Explore revisiii-export (1)_136: 1710604549
+      City Explore revisiii-export (1)_137: 1349433905
+      City Explore revisiii-export (1)_138: 1661406629
+      City Explore revisiii-export (1)_139: 1092072240
+      City Explore revisiii-export (1)_14: -356355493
+      City Explore revisiii-export (1)_140: -146395387
+      City Explore revisiii-export (1)_141: -844708967
+      City Explore revisiii-export (1)_142: 498211999
+      City Explore revisiii-export (1)_143: 869606292
+      City Explore revisiii-export (1)_144: -277322420
+      City Explore revisiii-export (1)_145: 908513054
+      City Explore revisiii-export (1)_146: 1402656555
+      City Explore revisiii-export (1)_147: 1689869663
+      City Explore revisiii-export (1)_148: 1571290461
+      City Explore revisiii-export (1)_149: -1899168015
+      City Explore revisiii-export (1)_15: -283369923
+      City Explore revisiii-export (1)_150: 1326846532
+      City Explore revisiii-export (1)_151: 1224583856
+      City Explore revisiii-export (1)_152: 2129395475
+      City Explore revisiii-export (1)_153: -1160178048
+      City Explore revisiii-export (1)_16: 1551688336
+      City Explore revisiii-export (1)_17: 1162364683
+      City Explore revisiii-export (1)_18: 1134254605
+      City Explore revisiii-export (1)_19: 620150230
+      City Explore revisiii-export (1)_2: -1445967132
+      City Explore revisiii-export (1)_20: -2093410489
+      City Explore revisiii-export (1)_21: 2047737572
+      City Explore revisiii-export (1)_22: -1587680931
+      City Explore revisiii-export (1)_23: -2073735456
+      City Explore revisiii-export (1)_24: -518230718
+      City Explore revisiii-export (1)_25: -1533981715
+      City Explore revisiii-export (1)_26: -1575090466
+      City Explore revisiii-export (1)_27: -831978298
+      City Explore revisiii-export (1)_28: 1409004751
+      City Explore revisiii-export (1)_29: -866532097
+      City Explore revisiii-export (1)_3: 1152950143
+      City Explore revisiii-export (1)_30: 1020774038
+      City Explore revisiii-export (1)_31: -1518556949
+      City Explore revisiii-export (1)_32: -2128302059
+      City Explore revisiii-export (1)_33: 256879801
+      City Explore revisiii-export (1)_34: 1654638561
+      City Explore revisiii-export (1)_35: -462025964
+      City Explore revisiii-export (1)_36: -1544775834
+      City Explore revisiii-export (1)_37: -78834802
+      City Explore revisiii-export (1)_38: -1432053791
+      City Explore revisiii-export (1)_39: 1575015241
+      City Explore revisiii-export (1)_4: 1148652880
+      City Explore revisiii-export (1)_40: -184789438
+      City Explore revisiii-export (1)_41: -619257769
+      City Explore revisiii-export (1)_42: 1682152368
+      City Explore revisiii-export (1)_43: -460021072
+      City Explore revisiii-export (1)_44: 1639113391
+      City Explore revisiii-export (1)_45: 619205177
+      City Explore revisiii-export (1)_46: 1659537659
+      City Explore revisiii-export (1)_47: 2036187434
+      City Explore revisiii-export (1)_48: -128827658
+      City Explore revisiii-export (1)_49: 616680142
+      City Explore revisiii-export (1)_5: -1859459678
+      City Explore revisiii-export (1)_50: 401913304
+      City Explore revisiii-export (1)_51: -1092108756
+      City Explore revisiii-export (1)_52: 2145206924
+      City Explore revisiii-export (1)_53: 535594668
+      City Explore revisiii-export (1)_54: -675185739
+      City Explore revisiii-export (1)_55: -687021718
+      City Explore revisiii-export (1)_56: -897667279
+      City Explore revisiii-export (1)_57: 1134321057
+      City Explore revisiii-export (1)_58: -709308939
+      City Explore revisiii-export (1)_59: 1163275002
+      City Explore revisiii-export (1)_6: 1597369585
+      City Explore revisiii-export (1)_60: 1333131346
+      City Explore revisiii-export (1)_61: -901046411
+      City Explore revisiii-export (1)_62: 1780889107
+      City Explore revisiii-export (1)_63: 621011714
+      City Explore revisiii-export (1)_64: 2075732703
+      City Explore revisiii-export (1)_65: 1030936807
+      City Explore revisiii-export (1)_66: 2093917976
+      City Explore revisiii-export (1)_67: -1394788732
+      City Explore revisiii-export (1)_68: -2020110135
+      City Explore revisiii-export (1)_69: 730807216
+      City Explore revisiii-export (1)_7: -643521201
+      City Explore revisiii-export (1)_70: 1616404709
+      City Explore revisiii-export (1)_71: 17348070
+      City Explore revisiii-export (1)_72: -1288883170
+      City Explore revisiii-export (1)_73: 458498990
+      City Explore revisiii-export (1)_74: -1872452509
+      City Explore revisiii-export (1)_75: 1758896653
+      City Explore revisiii-export (1)_76: -818840272
+      City Explore revisiii-export (1)_77: -2071192139
+      City Explore revisiii-export (1)_78: 956123989
+      City Explore revisiii-export (1)_79: -637094054
+      City Explore revisiii-export (1)_8: -1361550509
+      City Explore revisiii-export (1)_80: -1109883415
+      City Explore revisiii-export (1)_81: -430771091
+      City Explore revisiii-export (1)_82: -468684622
+      City Explore revisiii-export (1)_83: 1025933803
+      City Explore revisiii-export (1)_84: 1351139328
+      City Explore revisiii-export (1)_85: 1866143853
+      City Explore revisiii-export (1)_86: -1081466605
+      City Explore revisiii-export (1)_87: 142106596
+      City Explore revisiii-export (1)_88: -207569339
+      City Explore revisiii-export (1)_89: -1546703676
+      City Explore revisiii-export (1)_9: -1836578212
+      City Explore revisiii-export (1)_90: -465517017
+      City Explore revisiii-export (1)_91: 184593678
+      City Explore revisiii-export (1)_92: -1745083669
+      City Explore revisiii-export (1)_93: 596200851
+      City Explore revisiii-export (1)_94: -699546919
+      City Explore revisiii-export (1)_95: 553818853
+      City Explore revisiii-export (1)_96: -993775869
+      City Explore revisiii-export (1)_97: 910278616
+      City Explore revisiii-export (1)_98: -1204057411
+      City Explore revisiii-export (1)_99: 324041959
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
