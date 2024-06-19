@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Gameplay/TutorialCityArea.unity
     guid: f09bc4f7b4ecf2e41bfa13338300ce23
   - enabled: 1
+    path: Assets/Scenes/Gameplay/CityArea1.unity
+    guid: ae91b6d8471f95342bf00ea501a1b5e9
+  - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene 4.unity
     guid: 33209c1a3c14a4447987d774f56bf458
   - enabled: 1
@@ -71,9 +74,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gameplay/DarkRoom.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Gameplay/CityArea.unity
-    guid: 442c1c284c71abd47a76ae60038fd535
   - enabled: 1
     path: Assets/Scenes/Gameplay/LightRoom.unity
     guid: ef7033cad2cc4e54b895aff7be34a583

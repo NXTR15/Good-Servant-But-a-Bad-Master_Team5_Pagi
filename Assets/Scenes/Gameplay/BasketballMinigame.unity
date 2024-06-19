@@ -4569,6 +4569,26 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 6945fd201ce471c409f5c46184a6cf75, type: 2}
+    - target: {fileID: 395259080655902710, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
+      propertyPath: m_text
+      value: YOU LOSE !
+      objectReference: {fileID: 0}
+    - target: {fileID: 395259080655902710, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 395259080655902710, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 395259080655902710, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 395259080655902710, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 668550566524922664, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
       propertyPath: m_Name
       value: SceneTransitionGameplay
@@ -4576,6 +4596,22 @@ PrefabInstance:
     - target: {fileID: 668550566524922664, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404220678055416971, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404220678055416971, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1404220678055416971, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982221540968788395, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
+      propertyPath: m_text
+      value: YOU WIN !
       objectReference: {fileID: 0}
     - target: {fileID: 1982221540968788395, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
       propertyPath: m_fontColor32.rgba
@@ -4631,7 +4667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6525007495658471317, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6820689760170913636, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
       propertyPath: m_SortingOrder

@@ -8683,7 +8683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I have crush on you!
+  m_text: I have crush on you !
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 78893c4f30ae06e4486e750abd5f6e6e, type: 2}
   m_sharedMaterial: {fileID: 1968764483494966034, guid: 78893c4f30ae06e4486e750abd5f6e6e, type: 2}

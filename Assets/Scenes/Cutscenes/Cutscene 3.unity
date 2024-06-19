@@ -685,7 +685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1211,11 +1211,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: sfxSounds.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: musicSounds.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: sfxSounds.Array.data[0].clip
@@ -1225,9 +1225,17 @@ PrefabInstance:
       propertyPath: sfxSounds.Array.data[0].name
       value: Typing
       objectReference: {fileID: 0}
+    - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
+      propertyPath: musicSounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 35c0f5f05fc4e2641baaaac87f20c6b5, type: 3}
+    - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
+      propertyPath: musicSounds.Array.data[0].name
+      value: bangun
+      objectReference: {fileID: 0}
     - target: {fileID: 838894482265455944, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: bgmName
-      value: 
+      value: bangun
       objectReference: {fileID: 0}
     - target: {fileID: 9033718716112809772, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: m_LocalPosition.x

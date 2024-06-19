@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd81b9b3c9ab6d345bc194624db0cd54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: CityArea
+  sceneName: CityArea1
   WinPanel: {fileID: 1270842657}
   timerToNextScene: 0
   transitionTime: 0

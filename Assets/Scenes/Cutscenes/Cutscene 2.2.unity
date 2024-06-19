@@ -379,7 +379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: sfxSounds.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: musicSounds.Array.size
@@ -1276,7 +1276,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I have crush on you!
+  m_text: I have crush on you !
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 78893c4f30ae06e4486e750abd5f6e6e, type: 2}
   m_sharedMaterial: {fileID: 1968764483494966034, guid: 78893c4f30ae06e4486e750abd5f6e6e, type: 2}
