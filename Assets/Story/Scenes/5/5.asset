@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 5
   m_EditorClassIdentifier: 
   sentences:
-  - text: Woah I didn't expect it to be this crowded..
+  - text: Woah, I didn't expect it to be this crowded..
     speaker: {fileID: 11400000, guid: 06bd7cdee373c314d813ff4062dbc708, type: 2}
   background: {fileID: 21300000, guid: dd7080e5e77e51b4886ceaaa75f06935, type: 3}
   backgroundPosition: {x: 0, y: 0}
