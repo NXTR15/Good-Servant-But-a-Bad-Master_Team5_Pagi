@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 6 2
   m_EditorClassIdentifier: 
   sentences:
-  - text: Wahhh! Good job, guys! We win!
+  - text: Wahhh! Good job, guys! We won!
     speaker: {fileID: 11400000, guid: 06bd7cdee373c314d813ff4062dbc708, type: 2}
   background: {fileID: 21300000, guid: 9edaf6298caa0f34ca5909bf6b2b9810, type: 3}
   backgroundPosition: {x: 0, y: 0}

@@ -164,6 +164,7 @@ MonoBehaviour:
   bottomBar: {fileID: 765305250}
   backgroundController: {fileID: 519706047}
   nextButton: {fileID: 948111217}
+  startDelay: 2
 --- !u!114 &111458349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1142,8 +1143,20 @@ PrefabInstance:
       value: AudioManager
       objectReference: {fileID: 0}
     - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
+      propertyPath: sfxSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: musicSounds.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
+      propertyPath: sfxSounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: d3f1438dd79bdf240bd09f75446270ee, type: 3}
+    - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
+      propertyPath: sfxSounds.Array.data[0].name
+      value: Typing
       objectReference: {fileID: 0}
     - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: musicSounds.Array.data[0].clip
@@ -1507,8 +1520,8 @@ Camera:
   m_GameObject: {fileID: 1541461324}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

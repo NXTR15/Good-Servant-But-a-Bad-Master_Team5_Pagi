@@ -27,7 +27,6 @@ public class SceneTransition : MonoBehaviour
         yield return new WaitForSecondsRealtime(transitionTime); // Use WaitForSecondsRealtime if Time.timeScale is 0
         int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
         SceneManager.LoadScene(nextSceneIndex);
-        animator.SetTrigger("Start"); // Start fade-in animation in the next scene
     }
 
     // Coroutine to load a specific scene by name
@@ -36,7 +35,6 @@ public class SceneTransition : MonoBehaviour
         animator.SetTrigger("End");
         yield return new WaitForSeconds(transitionTime); // Wait for transition time
         SceneManager.LoadScene(sceneName); // Load the specified scene
-        animator.SetTrigger("Start");
     }
 
 }

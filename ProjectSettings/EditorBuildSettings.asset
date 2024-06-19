@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Gameplay/MainMenu.unity
+    guid: ac7d46717ee475545835dd8206c009ac
+  - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene 1.unity
     guid: 8d30100fd242f064eb89ac39718dbdc5
   - enabled: 1
@@ -14,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene 2.2.unity
     guid: 1152b2960f30740499ed153700fd2b39
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene 2.2 f1.unity
+    guid: 51ea4637c0829fa46b290e351e98feed
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene 2.2 f2.unity
+    guid: 5a575a55221713241a7c9634d56c5b57
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene 3.unity
     guid: 63b638258e2759541a1a2319739f5ae3
@@ -39,8 +48,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscenes/Cutscene 8.1.unity
     guid: d23b745f9ae7a7b40bfbbab46533a658
   - enabled: 1
+    path: Assets/Scenes/Cutscenes/Game Over.unity
+    guid: 760699ccb6d961f4da4e769fe5c15c03
+  - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene 8.2.unity
     guid: b851d9ff163d99843bb6c3b72a6d91e2
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Ending.unity
+    guid: b2999ca43c3f5314da5bf1df9e67c416
   - enabled: 1
     path: Assets/Scenes/Gameplay/CutsceneDarkRoom.unity
     guid: db2d28a064922a4438bb9bee779d14c7

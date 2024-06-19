@@ -1473,8 +1473,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: Cutscene 4
   WinPanel: {fileID: 1655046814}
-  timerToNextScene: 0
-  transitionTime: 2
+  timerToNextScene: 1
+  transitionTime: 1.8
   animator: {fileID: 1890097497}
 --- !u!1 &1761861223
 GameObject:

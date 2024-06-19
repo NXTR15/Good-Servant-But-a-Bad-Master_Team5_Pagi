@@ -9,11 +9,26 @@ public class GameController : MonoBehaviour
     public BackgroundController backgroundController;
     public GameObject nextButton;
     private bool reachedEnd = false;
+    public float startDelay = 2f; // Duration to wait before starting
 
     void Start()
     {
         nextButton.SetActive(false); // Hide the next button initially
-        UpdateScene(currentScene);
+        if (bottomBar != null)
+        {
+            bottomBar.gameObject.SetActive(false); // Hide the BottomBar initially
+        }
+        if (backgroundController != null)
+        {
+            backgroundController.gameObject.SetActive(false); // Hide the BackgroundController initially
+        }
+        StartCoroutine(StartWithDelay());
+    }
+
+    private IEnumerator StartWithDelay()
+    {
+        yield return new WaitForSeconds(startDelay); // Wait for the specified delay
+        UpdateScene(currentScene); // Continue with the usual Start logic
     }
 
     void Update()
@@ -47,22 +62,25 @@ public class GameController : MonoBehaviour
     // Update the scene to the specified scene
     void UpdateScene(StoryScene scene)
     {
-        if (scene.sentences.Count > 0)
+        bool hasSentences = scene.sentences.Count > 0;
+        bool hasBackground = scene.background != null;
+
+        if (bottomBar != null)
         {
-            if (bottomBar != null)
+            bottomBar.gameObject.SetActive(hasSentences); // Show/Hide the BottomBar based on sentences
+            if (hasSentences)
             {
-                bottomBar.gameObject.SetActive(true);
                 bottomBar.PlayScene(scene);
             }
         }
-        else
+
+        if (backgroundController != null)
         {
-            if (bottomBar != null)
+            backgroundController.gameObject.SetActive(hasBackground); // Show/Hide the BackgroundController based on background
+            if (hasBackground)
             {
-                bottomBar.gameObject.SetActive(false);
+                backgroundController.SwitchBackground(scene.background, scene.backgroundPosition);
             }
         }
-
-        backgroundController.SwitchBackground(scene.background, scene.backgroundPosition);
     }
 }

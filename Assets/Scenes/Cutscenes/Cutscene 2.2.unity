@@ -378,8 +378,20 @@ PrefabInstance:
       value: AudioManager
       objectReference: {fileID: 0}
     - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
+      propertyPath: sfxSounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: musicSounds.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
+      propertyPath: sfxSounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: d3f1438dd79bdf240bd09f75446270ee, type: 3}
+    - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
+      propertyPath: sfxSounds.Array.data[0].name
+      value: Typing
       objectReference: {fileID: 0}
     - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: musicSounds.Array.data[0].clip
@@ -893,6 +905,7 @@ MonoBehaviour:
   bottomBar: {fileID: 1190089467}
   backgroundController: {fileID: 1095714881}
   nextButton: {fileID: 1276170434}
+  startDelay: 2
 --- !u!114 &1085532881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1432,7 +1445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079345810025274470, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2079345810025274470, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -1452,7 +1465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079345810025274470, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TransitionToSpecificScene
+      value: TransitionToNextScene
       objectReference: {fileID: 0}
     - target: {fileID: 2079345810025274470, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -1468,7 +1481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2079345810025274470, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Cutscene 3
+      value: Cutscene 2.2 f1
       objectReference: {fileID: 0}
     - target: {fileID: 2079345810025274470, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
@@ -1623,7 +1636,7 @@ Camera:
   m_GameObject: {fileID: 1466888426}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
