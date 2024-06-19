@@ -356,11 +356,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: sfxSounds.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: musicSounds.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: sfxSounds.Array.data[0].clip
@@ -373,10 +373,10 @@ PrefabInstance:
     - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: musicSounds.Array.data[0].clip
       value: 
-      objectReference: {fileID: 8300000, guid: dea5d82c9756e1546bf6da06c334bd40, type: 3}
+      objectReference: {fileID: 8300000, guid: 35c0f5f05fc4e2641baaaac87f20c6b5, type: 3}
     - target: {fileID: 750291536878367085, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: musicSounds.Array.data[0].name
-      value: Cutscene
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4447465438134123512, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: m_Volume
@@ -441,7 +441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 782128599654791418, guid: 401930afbfb91ea43a34dc1dab5c2d66, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3206705399332627824, guid: 401930afbfb91ea43a34dc1dab5c2d66, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1556,6 +1556,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenuCS
       objectReference: {fileID: 0}
+    - target: {fileID: 654453710646116940, guid: a2ea2875f52d7e1449896f8db60f2a23, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1357217521794302602, guid: a2ea2875f52d7e1449896f8db60f2a23, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1818,11 +1822,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4807288477471612637, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -41.57007
+      value: -260.00012
       objectReference: {fileID: 0}
     - target: {fileID: 4807288477471612637, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -29
+      value: -709
       objectReference: {fileID: 0}
     - target: {fileID: 4807288477471612637, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1839,6 +1843,10 @@ PrefabInstance:
     - target: {fileID: 5873222562641117203, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
       propertyPath: m_Name
       value: NextScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 5873222562641117203, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7555050087940578697, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
       propertyPath: m_Text
