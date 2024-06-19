@@ -24,11 +24,16 @@ public class PauseGameCS : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.P) && isGamePaused)
         {
-            Debug.Log("Game Resumed");
-            Time.timeScale = 1f;
-            PausePanel.SetActive(false);
-            isGamePaused = false;
+            ResumeGame();
         }
         Debug.Log("Time.timeScale: " + Time.timeScale);
+    }
+
+    public void ResumeGame()
+    {
+        Time.timeScale = 1f;
+        PausePanel.SetActive(false);
+        isGamePaused = false;
+        Debug.Log("Game Resumed");
     }
 }

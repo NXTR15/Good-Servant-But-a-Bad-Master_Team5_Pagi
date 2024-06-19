@@ -441,7 +441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 782128599654791418, guid: 401930afbfb91ea43a34dc1dab5c2d66, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3206705399332627824, guid: 401930afbfb91ea43a34dc1dab5c2d66, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1568,6 +1568,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4955754941228210360, guid: a2ea2875f52d7e1449896f8db60f2a23, type: 3}
+      propertyPath: PausePanel
+      value: 
+      objectReference: {fileID: 520011302}
     - target: {fileID: 7636616671583047364, guid: a2ea2875f52d7e1449896f8db60f2a23, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
