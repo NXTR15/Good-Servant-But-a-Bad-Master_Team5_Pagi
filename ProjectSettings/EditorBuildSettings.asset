@@ -75,6 +75,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Gameplay/CutsceneLightRoom.unity
     guid: 14c10aa6117c76a4c8822457831da545
   - enabled: 1
+    path: Assets/Scenes/Gameplay/CutsceneBasketball.unity
+    guid: 53b83887883550749a6f1217214713e6
+  - enabled: 1
     path: Assets/Scenes/Gameplay/LightRoom.unity
     guid: ef7033cad2cc4e54b895aff7be34a583
   m_configObjects: {}

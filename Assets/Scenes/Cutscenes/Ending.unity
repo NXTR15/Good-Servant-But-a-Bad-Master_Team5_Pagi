@@ -441,6 +441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8449c146cace5ff4cb35960d6354c32b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PausePanel: {fileID: 0}
 --- !u!114 &1208784124
 MonoBehaviour:
   m_ObjectHideFlags: 0
