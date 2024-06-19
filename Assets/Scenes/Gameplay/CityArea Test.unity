@@ -178,11 +178,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3539594592423743523, guid: 401930afbfb91ea43a34dc1dab5c2d66, type: 3}
   m_PrefabInstance: {fileID: 245931696}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &129258252 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1189659959723360245, guid: 3842e55debe8433478c4ec52d77c2d3b, type: 3}
-  m_PrefabInstance: {fileID: 1802545757}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &245931696
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7723,7 +7718,7 @@ CompositeCollider2D:
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
-  m_CompositeGameObject: {fileID: 129258252}
+  m_CompositeGameObject: {fileID: 811473176}
 --- !u!114 &837470603 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6550208468363413057, guid: 1702bf838648ad74cbbef659dec056b9, type: 3}
@@ -9388,6 +9383,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1464200633798274124, guid: f99c08e7a6110374c9a280e1a6b16057, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1464200633798274124, guid: f99c08e7a6110374c9a280e1a6b16057, type: 3}
       propertyPath: m_SortingLayer
       value: 1
