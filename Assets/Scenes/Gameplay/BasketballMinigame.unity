@@ -4206,7 +4206,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 518693291235133115, guid: dcb01633c6c951e438a18bbe9a6f52b9, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 654453710646116940, guid: dcb01633c6c951e438a18bbe9a6f52b9, type: 3}
       propertyPath: m_Name
@@ -4214,19 +4214,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 654453710646116940, guid: dcb01633c6c951e438a18bbe9a6f52b9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1357217521794302602, guid: dcb01633c6c951e438a18bbe9a6f52b9, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4370206655197606113, guid: dcb01633c6c951e438a18bbe9a6f52b9, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7636616671583047364, guid: dcb01633c6c951e438a18bbe9a6f52b9, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8622603159563030802, guid: dcb01633c6c951e438a18bbe9a6f52b9, type: 3}
       propertyPath: m_Pivot.x

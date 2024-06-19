@@ -133,11 +133,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2079345810025274470, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2079345810025274470, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: TransitionToSpecificScene
+      value: TransitionToNextScene
       objectReference: {fileID: 0}
     - target: {fileID: 2079345810025274470, guid: c2f4ae218fc9a4343bec2c1e0974423c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument

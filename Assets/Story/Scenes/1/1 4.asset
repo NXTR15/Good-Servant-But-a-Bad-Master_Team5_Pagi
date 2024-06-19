@@ -16,7 +16,6 @@ MonoBehaviour:
   - text: /Oh come on, am I going to do something wrong today? Am I going to say
       the wrong thing? But I want to say it-
     speaker: {fileID: 11400000, guid: 0f1739a84ec62344dbc6f44a319d97e5, type: 2}
-    isItalic: 0
-  background: {fileID: 21300000, guid: 89583b758a495f143a77533b1707cea8, type: 3}
+  background: {fileID: 21300000, guid: 7eede6e7cf14feb43aa9b1f57b270949, type: 3}
   backgroundPosition: {x: 0, y: 0}
   nextScene: {fileID: 0}
