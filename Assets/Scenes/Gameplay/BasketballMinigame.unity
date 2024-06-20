@@ -4574,6 +4574,10 @@ PrefabInstance:
       value: YOU LOSE !
       objectReference: {fileID: 0}
     - target: {fileID: 395259080655902710, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 395259080655902710, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -4612,6 +4616,10 @@ PrefabInstance:
     - target: {fileID: 1982221540968788395, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
       propertyPath: m_text
       value: YOU WIN !
+      objectReference: {fileID: 0}
+    - target: {fileID: 1982221540968788395, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1982221540968788395, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
       propertyPath: m_fontColor32.rgba

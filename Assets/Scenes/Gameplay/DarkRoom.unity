@@ -9692,6 +9692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneTransitionGameplay
       objectReference: {fileID: 0}
+    - target: {fileID: 1982221540968788395, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
+      propertyPath: m_text
+      value: I have crush on you !
+      objectReference: {fileID: 0}
     - target: {fileID: 3587316144852819933, guid: 530b7c66e8419af4f98b2dc341a76122, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
