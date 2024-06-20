@@ -463,7 +463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 838894482265455944, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: bgmName
-      value: flashback2
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9033718716112809772, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -623,6 +623,8 @@ PlayableDirector:
     value: {fileID: 1459986766}
   - key: {fileID: -6369311936876476117, guid: 6e38d31e69970d241b32cf2d1b3799d9, type: 2}
     value: {fileID: 659207059}
+  - key: {fileID: 6581254004287053375, guid: 6e38d31e69970d241b32cf2d1b3799d9, type: 2}
+    value: {fileID: 947209264}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &691975820
@@ -654,6 +656,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playableDirector: {fileID: 691975819}
   nextSceneName: Cutscene 3
+--- !u!82 &947209264 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2977481710203494568, guid: 163173109a1e40649b3c02fcb48ca6c6, type: 3}
+  m_PrefabInstance: {fileID: 369032507}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1135211742
 GameObject:
   m_ObjectHideFlags: 0
